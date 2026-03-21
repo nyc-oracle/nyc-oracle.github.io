@@ -109,7 +109,8 @@ def assign_abundance(daily_counts):
     ]
 
 
-def build_daily_frame(raw, date_col, count_col, count_rename="count", sparse=False):
+def build_daily_frame(raw, date_col, count_col, count_rename="count", sparse=False,
+                      description=""):
     """
     Build a complete 366-row (2024 is a leap year) DataFrame from raw API results.
 
@@ -153,8 +154,10 @@ def build_daily_frame(raw, date_col, count_col, count_rename="count", sparse=Fal
     else:
         df["abundance"] = assign_abundance(df[count_rename])
 
+    df["description"] = description
     df["date"] = df["date"].dt.strftime("%Y-%m-%d")
-    return df[["date", "mmdd", "month", "day", "weekday", count_rename, "abundance"]]
+    return df[["date", "mmdd", "month", "day", "weekday", count_rename, "abundance",
+               "description"]]
 
 
 def save_csv(df, stem):
@@ -273,47 +276,62 @@ def main():
     OUT_DIR.mkdir(exist_ok=True)
 
     datasets = [
-        # (output stem, fetch_fn, count_col in API response, count_col in CSV, sparse)
+        # (output stem, fetch_fn, count_col in API response, count_col in CSV, sparse, description)
         ("311_noise_street_2024_abundance",
-         lambda: fetch_311_daily("Noise - Street/Sidewalk"), "count", "count", False),
+         lambda: fetch_311_daily("Noise - Street/Sidewalk"), "count", "count", False,
+         "Number of noise (street/sidewalk) complaints to 311"),
         ("311_heat_hotwater_2024_abundance",
-         lambda: fetch_311_daily("HEAT/HOT WATER"), "count", "count", False),
+         lambda: fetch_311_daily("HEAT/HOT WATER"), "count", "count", False,
+         "Number of heat/hot water complaints to 311"),
         ("311_unsanitary_2024_abundance",
-         lambda: fetch_311_daily("UNSANITARY CONDITION"), "count", "count", False),
+         lambda: fetch_311_daily("UNSANITARY CONDITION"), "count", "count", False,
+         "Number of unsanitary condition complaints to 311"),
         ("311_street_condition_2024_abundance",
-         lambda: fetch_311_daily("Street Condition"), "count", "count", False),
+         lambda: fetch_311_daily("Street Condition"), "count", "count", False,
+         "Number of street condition complaints to 311"),
         ("311_dhs_2024_abundance",
-         lambda: fetch_311_daily(agency="DHS"), "count", "count", False),
+         lambda: fetch_311_daily(agency="DHS"), "count", "count", False,
+         "Number of 311 service requests handled by the Department of Homeless Services (DHS)"),
         ("dog_bites_2024_abundance",
-         fetch_dog_bites_daily, "bite_count", "bite_count", False),
+         fetch_dog_bites_daily, "bite_count", "bite_count", False,
+         "Number of dog bite incidents reported to DOHMH"),
         ("ferry_ridership_2024_abundance",
-         fetch_ferry_daily, "count", "count", False),
+         fetch_ferry_daily, "count", "count", False,
+         "Number of NYC Ferry boardings"),
         ("arrests_2024_abundance",
-         fetch_arrests_daily, "count", "count", False),
+         fetch_arrests_daily, "count", "count", False,
+         "Number of NYPD arrests"),
         ("rodent_inspections_2024_abundance",
-         fetch_rodent_inspections_daily, "count", "count", False),
+         fetch_rodent_inspections_daily, "count", "count", False,
+         "Number of rodent inspections conducted by NYC"),
         # Watershed water quality — sparse continuous measurements
         ("watershed_wq_ph_2024_abundance",
-         lambda: fetch_watershed_analyte_daily("pH", "ph"), "ph", "ph", True),
+         lambda: fetch_watershed_analyte_daily("pH", "ph"), "ph", "ph", True,
+         "Daily median water pH (SU) across NYC DEP watershed reservoirs"),
         ("watershed_wq_total_plankton_2024_abundance",
          lambda: fetch_watershed_analyte_daily("Total Plankton", "total_plankton"),
-         "total_plankton", "total_plankton", True),
+         "total_plankton", "total_plankton", True,
+         "Daily median total plankton (ASU/mL) across NYC DEP watershed reservoirs"),
         ("watershed_wq_total_phosphorus_2024_abundance",
          lambda: fetch_watershed_analyte_daily("Phosphorus, Total (as P)", "total_phosphorus"),
-         "total_phosphorus", "total_phosphorus", True),
+         "total_phosphorus", "total_phosphorus", True,
+         "Daily median total phosphorus (µg/L) across NYC DEP watershed reservoirs"),
         ("watershed_wq_turbidity_2024_abundance",
          lambda: fetch_watershed_analyte_daily("Turbidity", "turbidity"),
-         "turbidity", "turbidity", True),
+         "turbidity", "turbidity", True,
+         "Daily median turbidity (NTU) across NYC DEP watershed reservoirs"),
         ("watershed_wq_temperature_2024_abundance",
          lambda: fetch_watershed_analyte_daily("Temperature", "temperature_c"),
-         "temperature_c", "temperature_c", True),
+         "temperature_c", "temperature_c", True,
+         "Daily median water temperature (°C) across NYC DEP watershed reservoirs"),
     ]
 
     failed = []
-    for stem, fetch_fn, count_col, count_rename, sparse in datasets:
+    for stem, fetch_fn, count_col, count_rename, sparse, description in datasets:
         print(f"\n[{stem}]")
         raw = fetch_fn()
-        df = build_daily_frame(raw, "date", count_col, count_rename, sparse=sparse)
+        df = build_daily_frame(raw, "date", count_col, count_rename, sparse=sparse,
+                               description=description)
         if df is not None:
             save_csv(df, stem)
         else:

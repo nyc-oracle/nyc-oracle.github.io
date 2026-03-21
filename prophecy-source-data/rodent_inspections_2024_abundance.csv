@@ -1,367 +1,367 @@
-date,mmdd,month,day,weekday,count,abundance
-2024-01-01,01-01,January,1,Monday,0,Very Low
-2024-01-02,01-02,January,2,Tuesday,782,Medium
-2024-01-03,01-03,January,3,Wednesday,1033,Very High
-2024-01-04,01-04,January,4,Thursday,1152,Very High
-2024-01-05,01-05,January,5,Friday,1181,Very High
-2024-01-06,01-06,January,6,Saturday,0,Very Low
-2024-01-07,01-07,January,7,Sunday,1,Very Low
-2024-01-08,01-08,January,8,Monday,1107,Very High
-2024-01-09,01-09,January,9,Tuesday,954,High
-2024-01-10,01-10,January,10,Wednesday,1072,Very High
-2024-01-11,01-11,January,11,Thursday,980,High
-2024-01-12,01-12,January,12,Friday,938,High
-2024-01-13,01-13,January,13,Saturday,35,Very Low
-2024-01-14,01-14,January,14,Sunday,56,Very Low
-2024-01-15,01-15,January,15,Monday,17,Very Low
-2024-01-16,01-16,January,16,Tuesday,169,Low
-2024-01-17,01-17,January,17,Wednesday,820,Medium
-2024-01-18,01-18,January,18,Thursday,899,High
-2024-01-19,01-19,January,19,Friday,572,Low
-2024-01-20,01-20,January,20,Saturday,66,Very Low
-2024-01-21,01-21,January,21,Sunday,23,Very Low
-2024-01-22,01-22,January,22,Monday,678,Low
-2024-01-23,01-23,January,23,Tuesday,733,Medium
-2024-01-24,01-24,January,24,Wednesday,710,Medium
-2024-01-25,01-25,January,25,Thursday,725,Medium
-2024-01-26,01-26,January,26,Friday,758,Medium
-2024-01-27,01-27,January,27,Saturday,55,Very Low
-2024-01-28,01-28,January,28,Sunday,16,Very Low
-2024-01-29,01-29,January,29,Monday,749,Medium
-2024-01-30,01-30,January,30,Tuesday,794,Medium
-2024-01-31,01-31,January,31,Wednesday,539,Low
-2024-02-01,02-01,February,1,Thursday,861,Medium
-2024-02-02,02-02,February,2,Friday,939,High
-2024-02-03,02-03,February,3,Saturday,51,Very Low
-2024-02-04,02-04,February,4,Sunday,55,Very Low
-2024-02-05,02-05,February,5,Monday,962,High
-2024-02-06,02-06,February,6,Tuesday,996,High
-2024-02-07,02-07,February,7,Wednesday,1110,Very High
-2024-02-08,02-08,February,8,Thursday,1019,Very High
-2024-02-09,02-09,February,9,Friday,923,High
-2024-02-10,02-10,February,10,Saturday,31,Very Low
-2024-02-11,02-11,February,11,Sunday,24,Very Low
-2024-02-12,02-12,February,12,Monday,899,High
-2024-02-13,02-13,February,13,Tuesday,16,Very Low
-2024-02-14,02-14,February,14,Wednesday,943,High
-2024-02-15,02-15,February,15,Thursday,905,High
-2024-02-16,02-16,February,16,Friday,1131,Very High
-2024-02-17,02-17,February,17,Saturday,3,Very Low
-2024-02-18,02-18,February,18,Sunday,12,Very Low
-2024-02-19,02-19,February,19,Monday,8,Very Low
-2024-02-20,02-20,February,20,Tuesday,970,High
-2024-02-21,02-21,February,21,Wednesday,943,High
-2024-02-22,02-22,February,22,Thursday,687,Medium
-2024-02-23,02-23,February,23,Friday,1117,Very High
-2024-02-24,02-24,February,24,Saturday,41,Very Low
-2024-02-25,02-25,February,25,Sunday,28,Very Low
-2024-02-26,02-26,February,26,Monday,821,Medium
-2024-02-27,02-27,February,27,Tuesday,871,Medium
-2024-02-28,02-28,February,28,Wednesday,911,High
-2024-02-29,02-29,February,29,Thursday,898,High
-2024-03-01,03-01,March,1,Friday,1188,Very High
-2024-03-02,03-02,March,2,Saturday,35,Very Low
-2024-03-03,03-03,March,3,Sunday,249,Low
-2024-03-04,03-04,March,4,Monday,968,High
-2024-03-05,03-05,March,5,Tuesday,971,High
-2024-03-06,03-06,March,6,Wednesday,1121,Very High
-2024-03-07,03-07,March,7,Thursday,987,High
-2024-03-08,03-08,March,8,Friday,1219,Very High
-2024-03-09,03-09,March,9,Saturday,168,Low
-2024-03-10,03-10,March,10,Sunday,161,Low
-2024-03-11,03-11,March,11,Monday,1168,Very High
-2024-03-12,03-12,March,12,Tuesday,985,High
-2024-03-13,03-13,March,13,Wednesday,1058,Very High
-2024-03-14,03-14,March,14,Thursday,899,High
-2024-03-15,03-15,March,15,Friday,773,Medium
-2024-03-16,03-16,March,16,Saturday,233,Low
-2024-03-17,03-17,March,17,Sunday,34,Very Low
-2024-03-18,03-18,March,18,Monday,1187,Very High
-2024-03-19,03-19,March,19,Tuesday,981,High
-2024-03-20,03-20,March,20,Wednesday,834,Medium
-2024-03-21,03-21,March,21,Thursday,886,Medium
-2024-03-22,03-22,March,22,Friday,788,Medium
-2024-03-23,03-23,March,23,Saturday,0,Very Low
-2024-03-24,03-24,March,24,Sunday,68,Very Low
-2024-03-25,03-25,March,25,Monday,1037,Very High
-2024-03-26,03-26,March,26,Tuesday,921,High
-2024-03-27,03-27,March,27,Wednesday,860,Medium
-2024-03-28,03-28,March,28,Thursday,865,Medium
-2024-03-29,03-29,March,29,Friday,1019,Very High
-2024-03-30,03-30,March,30,Saturday,196,Low
-2024-03-31,03-31,March,31,Sunday,61,Very Low
-2024-04-01,04-01,April,1,Monday,989,High
-2024-04-02,04-02,April,2,Tuesday,1057,Very High
-2024-04-03,04-03,April,3,Wednesday,782,Medium
-2024-04-04,04-04,April,4,Thursday,1229,Very High
-2024-04-05,04-05,April,5,Friday,1039,Very High
-2024-04-06,04-06,April,6,Saturday,293,Low
-2024-04-07,04-07,April,7,Sunday,265,Low
-2024-04-08,04-08,April,8,Monday,1079,Very High
-2024-04-09,04-09,April,9,Tuesday,920,High
-2024-04-10,04-10,April,10,Wednesday,845,Medium
-2024-04-11,04-11,April,11,Thursday,10,Very Low
-2024-04-12,04-12,April,12,Friday,1075,Very High
-2024-04-13,04-13,April,13,Saturday,145,Low
-2024-04-14,04-14,April,14,Sunday,142,Low
-2024-04-15,04-15,April,15,Monday,984,High
-2024-04-16,04-16,April,16,Tuesday,1063,Very High
-2024-04-17,04-17,April,17,Wednesday,944,High
-2024-04-18,04-18,April,18,Thursday,1068,Very High
-2024-04-19,04-19,April,19,Friday,969,High
-2024-04-20,04-20,April,20,Saturday,147,Low
-2024-04-21,04-21,April,21,Sunday,48,Very Low
-2024-04-22,04-22,April,22,Monday,794,Medium
-2024-04-23,04-23,April,23,Tuesday,766,Medium
-2024-04-24,04-24,April,24,Wednesday,932,High
-2024-04-25,04-25,April,25,Thursday,1086,Very High
-2024-04-26,04-26,April,26,Friday,1002,High
-2024-04-27,04-27,April,27,Saturday,163,Low
-2024-04-28,04-28,April,28,Sunday,68,Very Low
-2024-04-29,04-29,April,29,Monday,892,High
-2024-04-30,04-30,April,30,Tuesday,1021,Very High
-2024-05-01,05-01,May,1,Wednesday,819,Medium
-2024-05-02,05-02,May,2,Thursday,925,High
-2024-05-03,05-03,May,3,Friday,1190,Very High
-2024-05-04,05-04,May,4,Saturday,155,Low
-2024-05-05,05-05,May,5,Sunday,93,Very Low
-2024-05-06,05-06,May,6,Monday,1074,Very High
-2024-05-07,05-07,May,7,Tuesday,1084,Very High
-2024-05-08,05-08,May,8,Wednesday,1070,Very High
-2024-05-09,05-09,May,9,Thursday,1323,Very High
-2024-05-10,05-10,May,10,Friday,1110,Very High
-2024-05-11,05-11,May,11,Saturday,202,Low
-2024-05-12,05-12,May,12,Sunday,95,Very Low
-2024-05-13,05-13,May,13,Monday,1026,Very High
-2024-05-14,05-14,May,14,Tuesday,1021,Very High
-2024-05-15,05-15,May,15,Wednesday,964,High
-2024-05-16,05-16,May,16,Thursday,1089,Very High
-2024-05-17,05-17,May,17,Friday,1107,Very High
-2024-05-18,05-18,May,18,Saturday,107,Low
-2024-05-19,05-19,May,19,Sunday,85,Very Low
-2024-05-20,05-20,May,20,Monday,263,Low
-2024-05-21,05-21,May,21,Tuesday,888,High
-2024-05-22,05-22,May,22,Wednesday,905,High
-2024-05-23,05-23,May,23,Thursday,994,High
-2024-05-24,05-24,May,24,Friday,1219,Very High
-2024-05-25,05-25,May,25,Saturday,103,Low
-2024-05-26,05-26,May,26,Sunday,73,Very Low
-2024-05-27,05-27,May,27,Monday,5,Very Low
-2024-05-28,05-28,May,28,Tuesday,833,Medium
-2024-05-29,05-29,May,29,Wednesday,1062,Very High
-2024-05-30,05-30,May,30,Thursday,1041,Very High
-2024-05-31,05-31,May,31,Friday,1096,Very High
-2024-06-01,06-01,June,1,Saturday,148,Low
-2024-06-02,06-02,June,2,Sunday,89,Very Low
-2024-06-03,06-03,June,3,Monday,1207,Very High
-2024-06-04,06-04,June,4,Tuesday,1195,Very High
-2024-06-05,06-05,June,5,Wednesday,937,High
-2024-06-06,06-06,June,6,Thursday,1255,Very High
-2024-06-07,06-07,June,7,Friday,908,High
-2024-06-08,06-08,June,8,Saturday,110,Low
-2024-06-09,06-09,June,9,Sunday,180,Low
-2024-06-10,06-10,June,10,Monday,1108,Very High
-2024-06-11,06-11,June,11,Tuesday,954,High
-2024-06-12,06-12,June,12,Wednesday,877,Medium
-2024-06-13,06-13,June,13,Thursday,1149,Very High
-2024-06-14,06-14,June,14,Friday,948,High
-2024-06-15,06-15,June,15,Saturday,140,Low
-2024-06-16,06-16,June,16,Sunday,76,Very Low
-2024-06-17,06-17,June,17,Monday,854,Medium
-2024-06-18,06-18,June,18,Tuesday,852,Medium
-2024-06-19,06-19,June,19,Wednesday,65,Very Low
-2024-06-20,06-20,June,20,Thursday,1051,Very High
-2024-06-21,06-21,June,21,Friday,1050,Very High
-2024-06-22,06-22,June,22,Saturday,147,Low
-2024-06-23,06-23,June,23,Sunday,68,Very Low
-2024-06-24,06-24,June,24,Monday,1012,High
-2024-06-25,06-25,June,25,Tuesday,830,Medium
-2024-06-26,06-26,June,26,Wednesday,742,Medium
-2024-06-27,06-27,June,27,Thursday,988,High
-2024-06-28,06-28,June,28,Friday,819,Medium
-2024-06-29,06-29,June,29,Saturday,352,Low
-2024-06-30,06-30,June,30,Sunday,158,Low
-2024-07-01,07-01,July,1,Monday,994,High
-2024-07-02,07-02,July,2,Tuesday,1039,Very High
-2024-07-03,07-03,July,3,Wednesday,779,Medium
-2024-07-04,07-04,July,4,Thursday,1,Very Low
-2024-07-05,07-05,July,5,Friday,826,Medium
-2024-07-06,07-06,July,6,Saturday,1,Very Low
-2024-07-07,07-07,July,7,Sunday,0,Very Low
-2024-07-08,07-08,July,8,Monday,944,High
-2024-07-09,07-09,July,9,Tuesday,1170,Very High
-2024-07-10,07-10,July,10,Wednesday,999,High
-2024-07-11,07-11,July,11,Thursday,1069,Very High
-2024-07-12,07-12,July,12,Friday,1118,Very High
-2024-07-13,07-13,July,13,Saturday,1,Very Low
-2024-07-14,07-14,July,14,Sunday,0,Very Low
-2024-07-15,07-15,July,15,Monday,944,High
-2024-07-16,07-16,July,16,Tuesday,951,High
-2024-07-17,07-17,July,17,Wednesday,848,Medium
-2024-07-18,07-18,July,18,Thursday,1074,Very High
-2024-07-19,07-19,July,19,Friday,929,High
-2024-07-20,07-20,July,20,Saturday,46,Very Low
-2024-07-21,07-21,July,21,Sunday,42,Very Low
-2024-07-22,07-22,July,22,Monday,909,High
-2024-07-23,07-23,July,23,Tuesday,1153,Very High
-2024-07-24,07-24,July,24,Wednesday,803,Medium
-2024-07-25,07-25,July,25,Thursday,825,Medium
-2024-07-26,07-26,July,26,Friday,875,Medium
-2024-07-27,07-27,July,27,Saturday,26,Very Low
-2024-07-28,07-28,July,28,Sunday,31,Very Low
-2024-07-29,07-29,July,29,Monday,767,Medium
-2024-07-30,07-30,July,30,Tuesday,800,Medium
-2024-07-31,07-31,July,31,Wednesday,680,Medium
-2024-08-01,08-01,August,1,Thursday,877,Medium
-2024-08-02,08-02,August,2,Friday,877,Medium
-2024-08-03,08-03,August,3,Saturday,64,Very Low
-2024-08-04,08-04,August,4,Sunday,95,Very Low
-2024-08-05,08-05,August,5,Monday,950,High
-2024-08-06,08-06,August,6,Tuesday,894,High
-2024-08-07,08-07,August,7,Wednesday,111,Low
-2024-08-08,08-08,August,8,Thursday,930,High
-2024-08-09,08-09,August,9,Friday,770,Medium
-2024-08-10,08-10,August,10,Saturday,122,Low
-2024-08-11,08-11,August,11,Sunday,104,Low
-2024-08-12,08-12,August,12,Monday,921,High
-2024-08-13,08-13,August,13,Tuesday,1185,Very High
-2024-08-14,08-14,August,14,Wednesday,889,High
-2024-08-15,08-15,August,15,Thursday,1093,Very High
-2024-08-16,08-16,August,16,Friday,923,High
-2024-08-17,08-17,August,17,Saturday,128,Low
-2024-08-18,08-18,August,18,Sunday,114,Low
-2024-08-19,08-19,August,19,Monday,827,Medium
-2024-08-20,08-20,August,20,Tuesday,1148,Very High
-2024-08-21,08-21,August,21,Wednesday,840,Medium
-2024-08-22,08-22,August,22,Thursday,872,Medium
-2024-08-23,08-23,August,23,Friday,860,Medium
-2024-08-24,08-24,August,24,Saturday,154,Low
-2024-08-25,08-25,August,25,Sunday,82,Very Low
-2024-08-26,08-26,August,26,Monday,751,Medium
-2024-08-27,08-27,August,27,Tuesday,754,Medium
-2024-08-28,08-28,August,28,Wednesday,641,Low
-2024-08-29,08-29,August,29,Thursday,843,Medium
-2024-08-30,08-30,August,30,Friday,804,Medium
-2024-08-31,08-31,August,31,Saturday,94,Very Low
-2024-09-01,09-01,September,1,Sunday,68,Very Low
-2024-09-02,09-02,September,2,Monday,0,Very Low
-2024-09-03,09-03,September,3,Tuesday,1147,Very High
-2024-09-04,09-04,September,4,Wednesday,889,High
-2024-09-05,09-05,September,5,Thursday,969,High
-2024-09-06,09-06,September,6,Friday,998,High
-2024-09-07,09-07,September,7,Saturday,147,Low
-2024-09-08,09-08,September,8,Sunday,92,Very Low
-2024-09-09,09-09,September,9,Monday,958,High
-2024-09-10,09-10,September,10,Tuesday,1096,Very High
-2024-09-11,09-11,September,11,Wednesday,930,High
-2024-09-12,09-12,September,12,Thursday,1222,Very High
-2024-09-13,09-13,September,13,Friday,1169,Very High
-2024-09-14,09-14,September,14,Saturday,229,Low
-2024-09-15,09-15,September,15,Sunday,110,Low
-2024-09-16,09-16,September,16,Monday,1062,Very High
-2024-09-17,09-17,September,17,Tuesday,1099,Very High
-2024-09-18,09-18,September,18,Wednesday,820,Medium
-2024-09-19,09-19,September,19,Thursday,1120,Very High
-2024-09-20,09-20,September,20,Friday,820,Medium
-2024-09-21,09-21,September,21,Saturday,315,Low
-2024-09-22,09-22,September,22,Sunday,96,Low
-2024-09-23,09-23,September,23,Monday,816,Medium
-2024-09-24,09-24,September,24,Tuesday,889,High
-2024-09-25,09-25,September,25,Wednesday,761,Medium
-2024-09-26,09-26,September,26,Thursday,942,High
-2024-09-27,09-27,September,27,Friday,746,Medium
-2024-09-28,09-28,September,28,Saturday,323,Low
-2024-09-29,09-29,September,29,Sunday,340,Low
-2024-09-30,09-30,September,30,Monday,682,Medium
-2024-10-01,10-01,October,1,Tuesday,1096,Very High
-2024-10-02,10-02,October,2,Wednesday,876,Medium
-2024-10-03,10-03,October,3,Thursday,1082,Very High
-2024-10-04,10-04,October,4,Friday,1059,Very High
-2024-10-05,10-05,October,5,Saturday,194,Low
-2024-10-06,10-06,October,6,Sunday,56,Very Low
-2024-10-07,10-07,October,7,Monday,1000,High
-2024-10-08,10-08,October,8,Tuesday,1093,Very High
-2024-10-09,10-09,October,9,Wednesday,1123,Very High
-2024-10-10,10-10,October,10,Thursday,662,Low
-2024-10-11,10-11,October,11,Friday,984,High
-2024-10-12,10-12,October,12,Saturday,321,Low
-2024-10-13,10-13,October,13,Sunday,172,Low
-2024-10-14,10-14,October,14,Monday,261,Low
-2024-10-15,10-15,October,15,Tuesday,1272,Very High
-2024-10-16,10-16,October,16,Wednesday,766,Medium
-2024-10-17,10-17,October,17,Thursday,993,High
-2024-10-18,10-18,October,18,Friday,1074,Very High
-2024-10-19,10-19,October,19,Saturday,161,Low
-2024-10-20,10-20,October,20,Sunday,41,Very Low
-2024-10-21,10-21,October,21,Monday,878,Medium
-2024-10-22,10-22,October,22,Tuesday,978,High
-2024-10-23,10-23,October,23,Wednesday,549,Low
-2024-10-24,10-24,October,24,Thursday,762,Medium
-2024-10-25,10-25,October,25,Friday,774,Medium
-2024-10-26,10-26,October,26,Saturday,201,Low
-2024-10-27,10-27,October,27,Sunday,67,Very Low
-2024-10-28,10-28,October,28,Monday,649,Low
-2024-10-29,10-29,October,29,Tuesday,629,Low
-2024-10-30,10-30,October,30,Wednesday,609,Low
-2024-10-31,10-31,October,31,Thursday,651,Low
-2024-11-01,11-01,November,1,Friday,726,Medium
-2024-11-02,11-02,November,2,Saturday,113,Low
-2024-11-03,11-03,November,3,Sunday,50,Very Low
-2024-11-04,11-04,November,4,Monday,638,Low
-2024-11-05,11-05,November,5,Tuesday,0,Very Low
-2024-11-06,11-06,November,6,Wednesday,889,High
-2024-11-07,11-07,November,7,Thursday,1034,Very High
-2024-11-08,11-08,November,8,Friday,1215,Very High
-2024-11-09,11-09,November,9,Saturday,116,Low
-2024-11-10,11-10,November,10,Sunday,179,Low
-2024-11-11,11-11,November,11,Monday,39,Very Low
-2024-11-12,11-12,November,12,Tuesday,997,High
-2024-11-13,11-13,November,13,Wednesday,956,High
-2024-11-14,11-14,November,14,Thursday,1042,Very High
-2024-11-15,11-15,November,15,Friday,991,High
-2024-11-16,11-16,November,16,Saturday,67,Very Low
-2024-11-17,11-17,November,17,Sunday,95,Very Low
-2024-11-18,11-18,November,18,Monday,977,High
-2024-11-19,11-19,November,19,Tuesday,703,Medium
-2024-11-20,11-20,November,20,Wednesday,615,Low
-2024-11-21,11-21,November,21,Thursday,662,Low
-2024-11-22,11-22,November,22,Friday,716,Medium
-2024-11-23,11-23,November,23,Saturday,132,Low
-2024-11-24,11-24,November,24,Sunday,77,Very Low
-2024-11-25,11-25,November,25,Monday,862,Medium
-2024-11-26,11-26,November,26,Tuesday,708,Medium
-2024-11-27,11-27,November,27,Wednesday,480,Low
-2024-11-28,11-28,November,28,Thursday,0,Very Low
-2024-11-29,11-29,November,29,Friday,399,Low
-2024-11-30,11-30,November,30,Saturday,65,Very Low
-2024-12-01,12-01,December,1,Sunday,57,Very Low
-2024-12-02,12-02,December,2,Monday,751,Medium
-2024-12-03,12-03,December,3,Tuesday,856,Medium
-2024-12-04,12-04,December,4,Wednesday,696,Medium
-2024-12-05,12-05,December,5,Thursday,862,Medium
-2024-12-06,12-06,December,6,Friday,986,High
-2024-12-07,12-07,December,7,Saturday,103,Low
-2024-12-08,12-08,December,8,Sunday,91,Very Low
-2024-12-09,12-09,December,9,Monday,983,High
-2024-12-10,12-10,December,10,Tuesday,795,Medium
-2024-12-11,12-11,December,11,Wednesday,779,Medium
-2024-12-12,12-12,December,12,Thursday,984,High
-2024-12-13,12-13,December,13,Friday,801,Medium
-2024-12-14,12-14,December,14,Saturday,58,Very Low
-2024-12-15,12-15,December,15,Sunday,54,Very Low
-2024-12-16,12-16,December,16,Monday,511,Low
-2024-12-17,12-17,December,17,Tuesday,677,Low
-2024-12-18,12-18,December,18,Wednesday,627,Low
-2024-12-19,12-19,December,19,Thursday,609,Low
-2024-12-20,12-20,December,20,Friday,321,Low
-2024-12-21,12-21,December,21,Saturday,27,Very Low
-2024-12-22,12-22,December,22,Sunday,27,Very Low
-2024-12-23,12-23,December,23,Monday,359,Low
-2024-12-24,12-24,December,24,Tuesday,59,Very Low
-2024-12-25,12-25,December,25,Wednesday,0,Very Low
-2024-12-26,12-26,December,26,Thursday,413,Low
-2024-12-27,12-27,December,27,Friday,502,Low
-2024-12-28,12-28,December,28,Saturday,40,Very Low
-2024-12-29,12-29,December,29,Sunday,21,Very Low
-2024-12-30,12-30,December,30,Monday,550,Low
-2024-12-31,12-31,December,31,Tuesday,390,Low
+date,mmdd,month,day,weekday,count,abundance,description
+2024-01-01,01-01,January,1,Monday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-01-02,01-02,January,2,Tuesday,782,Medium,Number of rodent inspections conducted by NYC
+2024-01-03,01-03,January,3,Wednesday,1033,Very High,Number of rodent inspections conducted by NYC
+2024-01-04,01-04,January,4,Thursday,1152,Very High,Number of rodent inspections conducted by NYC
+2024-01-05,01-05,January,5,Friday,1181,Very High,Number of rodent inspections conducted by NYC
+2024-01-06,01-06,January,6,Saturday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-01-07,01-07,January,7,Sunday,1,Very Low,Number of rodent inspections conducted by NYC
+2024-01-08,01-08,January,8,Monday,1107,Very High,Number of rodent inspections conducted by NYC
+2024-01-09,01-09,January,9,Tuesday,954,High,Number of rodent inspections conducted by NYC
+2024-01-10,01-10,January,10,Wednesday,1072,Very High,Number of rodent inspections conducted by NYC
+2024-01-11,01-11,January,11,Thursday,980,High,Number of rodent inspections conducted by NYC
+2024-01-12,01-12,January,12,Friday,938,High,Number of rodent inspections conducted by NYC
+2024-01-13,01-13,January,13,Saturday,35,Very Low,Number of rodent inspections conducted by NYC
+2024-01-14,01-14,January,14,Sunday,56,Very Low,Number of rodent inspections conducted by NYC
+2024-01-15,01-15,January,15,Monday,17,Very Low,Number of rodent inspections conducted by NYC
+2024-01-16,01-16,January,16,Tuesday,169,Low,Number of rodent inspections conducted by NYC
+2024-01-17,01-17,January,17,Wednesday,820,Medium,Number of rodent inspections conducted by NYC
+2024-01-18,01-18,January,18,Thursday,899,High,Number of rodent inspections conducted by NYC
+2024-01-19,01-19,January,19,Friday,572,Low,Number of rodent inspections conducted by NYC
+2024-01-20,01-20,January,20,Saturday,66,Very Low,Number of rodent inspections conducted by NYC
+2024-01-21,01-21,January,21,Sunday,23,Very Low,Number of rodent inspections conducted by NYC
+2024-01-22,01-22,January,22,Monday,678,Low,Number of rodent inspections conducted by NYC
+2024-01-23,01-23,January,23,Tuesday,733,Medium,Number of rodent inspections conducted by NYC
+2024-01-24,01-24,January,24,Wednesday,710,Medium,Number of rodent inspections conducted by NYC
+2024-01-25,01-25,January,25,Thursday,725,Medium,Number of rodent inspections conducted by NYC
+2024-01-26,01-26,January,26,Friday,758,Medium,Number of rodent inspections conducted by NYC
+2024-01-27,01-27,January,27,Saturday,55,Very Low,Number of rodent inspections conducted by NYC
+2024-01-28,01-28,January,28,Sunday,16,Very Low,Number of rodent inspections conducted by NYC
+2024-01-29,01-29,January,29,Monday,749,Medium,Number of rodent inspections conducted by NYC
+2024-01-30,01-30,January,30,Tuesday,794,Medium,Number of rodent inspections conducted by NYC
+2024-01-31,01-31,January,31,Wednesday,539,Low,Number of rodent inspections conducted by NYC
+2024-02-01,02-01,February,1,Thursday,861,Medium,Number of rodent inspections conducted by NYC
+2024-02-02,02-02,February,2,Friday,939,High,Number of rodent inspections conducted by NYC
+2024-02-03,02-03,February,3,Saturday,51,Very Low,Number of rodent inspections conducted by NYC
+2024-02-04,02-04,February,4,Sunday,55,Very Low,Number of rodent inspections conducted by NYC
+2024-02-05,02-05,February,5,Monday,962,High,Number of rodent inspections conducted by NYC
+2024-02-06,02-06,February,6,Tuesday,996,High,Number of rodent inspections conducted by NYC
+2024-02-07,02-07,February,7,Wednesday,1110,Very High,Number of rodent inspections conducted by NYC
+2024-02-08,02-08,February,8,Thursday,1019,Very High,Number of rodent inspections conducted by NYC
+2024-02-09,02-09,February,9,Friday,923,High,Number of rodent inspections conducted by NYC
+2024-02-10,02-10,February,10,Saturday,31,Very Low,Number of rodent inspections conducted by NYC
+2024-02-11,02-11,February,11,Sunday,24,Very Low,Number of rodent inspections conducted by NYC
+2024-02-12,02-12,February,12,Monday,899,High,Number of rodent inspections conducted by NYC
+2024-02-13,02-13,February,13,Tuesday,16,Very Low,Number of rodent inspections conducted by NYC
+2024-02-14,02-14,February,14,Wednesday,943,High,Number of rodent inspections conducted by NYC
+2024-02-15,02-15,February,15,Thursday,905,High,Number of rodent inspections conducted by NYC
+2024-02-16,02-16,February,16,Friday,1131,Very High,Number of rodent inspections conducted by NYC
+2024-02-17,02-17,February,17,Saturday,3,Very Low,Number of rodent inspections conducted by NYC
+2024-02-18,02-18,February,18,Sunday,12,Very Low,Number of rodent inspections conducted by NYC
+2024-02-19,02-19,February,19,Monday,8,Very Low,Number of rodent inspections conducted by NYC
+2024-02-20,02-20,February,20,Tuesday,970,High,Number of rodent inspections conducted by NYC
+2024-02-21,02-21,February,21,Wednesday,943,High,Number of rodent inspections conducted by NYC
+2024-02-22,02-22,February,22,Thursday,687,Medium,Number of rodent inspections conducted by NYC
+2024-02-23,02-23,February,23,Friday,1117,Very High,Number of rodent inspections conducted by NYC
+2024-02-24,02-24,February,24,Saturday,41,Very Low,Number of rodent inspections conducted by NYC
+2024-02-25,02-25,February,25,Sunday,28,Very Low,Number of rodent inspections conducted by NYC
+2024-02-26,02-26,February,26,Monday,821,Medium,Number of rodent inspections conducted by NYC
+2024-02-27,02-27,February,27,Tuesday,871,Medium,Number of rodent inspections conducted by NYC
+2024-02-28,02-28,February,28,Wednesday,911,High,Number of rodent inspections conducted by NYC
+2024-02-29,02-29,February,29,Thursday,898,High,Number of rodent inspections conducted by NYC
+2024-03-01,03-01,March,1,Friday,1188,Very High,Number of rodent inspections conducted by NYC
+2024-03-02,03-02,March,2,Saturday,35,Very Low,Number of rodent inspections conducted by NYC
+2024-03-03,03-03,March,3,Sunday,249,Low,Number of rodent inspections conducted by NYC
+2024-03-04,03-04,March,4,Monday,968,High,Number of rodent inspections conducted by NYC
+2024-03-05,03-05,March,5,Tuesday,971,High,Number of rodent inspections conducted by NYC
+2024-03-06,03-06,March,6,Wednesday,1121,Very High,Number of rodent inspections conducted by NYC
+2024-03-07,03-07,March,7,Thursday,987,High,Number of rodent inspections conducted by NYC
+2024-03-08,03-08,March,8,Friday,1219,Very High,Number of rodent inspections conducted by NYC
+2024-03-09,03-09,March,9,Saturday,168,Low,Number of rodent inspections conducted by NYC
+2024-03-10,03-10,March,10,Sunday,161,Low,Number of rodent inspections conducted by NYC
+2024-03-11,03-11,March,11,Monday,1168,Very High,Number of rodent inspections conducted by NYC
+2024-03-12,03-12,March,12,Tuesday,985,High,Number of rodent inspections conducted by NYC
+2024-03-13,03-13,March,13,Wednesday,1058,Very High,Number of rodent inspections conducted by NYC
+2024-03-14,03-14,March,14,Thursday,899,High,Number of rodent inspections conducted by NYC
+2024-03-15,03-15,March,15,Friday,773,Medium,Number of rodent inspections conducted by NYC
+2024-03-16,03-16,March,16,Saturday,233,Low,Number of rodent inspections conducted by NYC
+2024-03-17,03-17,March,17,Sunday,34,Very Low,Number of rodent inspections conducted by NYC
+2024-03-18,03-18,March,18,Monday,1187,Very High,Number of rodent inspections conducted by NYC
+2024-03-19,03-19,March,19,Tuesday,981,High,Number of rodent inspections conducted by NYC
+2024-03-20,03-20,March,20,Wednesday,834,Medium,Number of rodent inspections conducted by NYC
+2024-03-21,03-21,March,21,Thursday,886,Medium,Number of rodent inspections conducted by NYC
+2024-03-22,03-22,March,22,Friday,788,Medium,Number of rodent inspections conducted by NYC
+2024-03-23,03-23,March,23,Saturday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-03-24,03-24,March,24,Sunday,68,Very Low,Number of rodent inspections conducted by NYC
+2024-03-25,03-25,March,25,Monday,1037,Very High,Number of rodent inspections conducted by NYC
+2024-03-26,03-26,March,26,Tuesday,921,High,Number of rodent inspections conducted by NYC
+2024-03-27,03-27,March,27,Wednesday,860,Medium,Number of rodent inspections conducted by NYC
+2024-03-28,03-28,March,28,Thursday,865,Medium,Number of rodent inspections conducted by NYC
+2024-03-29,03-29,March,29,Friday,1019,Very High,Number of rodent inspections conducted by NYC
+2024-03-30,03-30,March,30,Saturday,196,Low,Number of rodent inspections conducted by NYC
+2024-03-31,03-31,March,31,Sunday,61,Very Low,Number of rodent inspections conducted by NYC
+2024-04-01,04-01,April,1,Monday,989,High,Number of rodent inspections conducted by NYC
+2024-04-02,04-02,April,2,Tuesday,1057,Very High,Number of rodent inspections conducted by NYC
+2024-04-03,04-03,April,3,Wednesday,782,Medium,Number of rodent inspections conducted by NYC
+2024-04-04,04-04,April,4,Thursday,1229,Very High,Number of rodent inspections conducted by NYC
+2024-04-05,04-05,April,5,Friday,1039,Very High,Number of rodent inspections conducted by NYC
+2024-04-06,04-06,April,6,Saturday,293,Low,Number of rodent inspections conducted by NYC
+2024-04-07,04-07,April,7,Sunday,265,Low,Number of rodent inspections conducted by NYC
+2024-04-08,04-08,April,8,Monday,1079,Very High,Number of rodent inspections conducted by NYC
+2024-04-09,04-09,April,9,Tuesday,920,High,Number of rodent inspections conducted by NYC
+2024-04-10,04-10,April,10,Wednesday,845,Medium,Number of rodent inspections conducted by NYC
+2024-04-11,04-11,April,11,Thursday,10,Very Low,Number of rodent inspections conducted by NYC
+2024-04-12,04-12,April,12,Friday,1075,Very High,Number of rodent inspections conducted by NYC
+2024-04-13,04-13,April,13,Saturday,145,Low,Number of rodent inspections conducted by NYC
+2024-04-14,04-14,April,14,Sunday,142,Low,Number of rodent inspections conducted by NYC
+2024-04-15,04-15,April,15,Monday,984,High,Number of rodent inspections conducted by NYC
+2024-04-16,04-16,April,16,Tuesday,1063,Very High,Number of rodent inspections conducted by NYC
+2024-04-17,04-17,April,17,Wednesday,944,High,Number of rodent inspections conducted by NYC
+2024-04-18,04-18,April,18,Thursday,1068,Very High,Number of rodent inspections conducted by NYC
+2024-04-19,04-19,April,19,Friday,969,High,Number of rodent inspections conducted by NYC
+2024-04-20,04-20,April,20,Saturday,147,Low,Number of rodent inspections conducted by NYC
+2024-04-21,04-21,April,21,Sunday,48,Very Low,Number of rodent inspections conducted by NYC
+2024-04-22,04-22,April,22,Monday,794,Medium,Number of rodent inspections conducted by NYC
+2024-04-23,04-23,April,23,Tuesday,766,Medium,Number of rodent inspections conducted by NYC
+2024-04-24,04-24,April,24,Wednesday,932,High,Number of rodent inspections conducted by NYC
+2024-04-25,04-25,April,25,Thursday,1086,Very High,Number of rodent inspections conducted by NYC
+2024-04-26,04-26,April,26,Friday,1002,High,Number of rodent inspections conducted by NYC
+2024-04-27,04-27,April,27,Saturday,163,Low,Number of rodent inspections conducted by NYC
+2024-04-28,04-28,April,28,Sunday,68,Very Low,Number of rodent inspections conducted by NYC
+2024-04-29,04-29,April,29,Monday,892,High,Number of rodent inspections conducted by NYC
+2024-04-30,04-30,April,30,Tuesday,1021,Very High,Number of rodent inspections conducted by NYC
+2024-05-01,05-01,May,1,Wednesday,819,Medium,Number of rodent inspections conducted by NYC
+2024-05-02,05-02,May,2,Thursday,925,High,Number of rodent inspections conducted by NYC
+2024-05-03,05-03,May,3,Friday,1190,Very High,Number of rodent inspections conducted by NYC
+2024-05-04,05-04,May,4,Saturday,155,Low,Number of rodent inspections conducted by NYC
+2024-05-05,05-05,May,5,Sunday,93,Very Low,Number of rodent inspections conducted by NYC
+2024-05-06,05-06,May,6,Monday,1074,Very High,Number of rodent inspections conducted by NYC
+2024-05-07,05-07,May,7,Tuesday,1084,Very High,Number of rodent inspections conducted by NYC
+2024-05-08,05-08,May,8,Wednesday,1070,Very High,Number of rodent inspections conducted by NYC
+2024-05-09,05-09,May,9,Thursday,1323,Very High,Number of rodent inspections conducted by NYC
+2024-05-10,05-10,May,10,Friday,1110,Very High,Number of rodent inspections conducted by NYC
+2024-05-11,05-11,May,11,Saturday,202,Low,Number of rodent inspections conducted by NYC
+2024-05-12,05-12,May,12,Sunday,95,Very Low,Number of rodent inspections conducted by NYC
+2024-05-13,05-13,May,13,Monday,1026,Very High,Number of rodent inspections conducted by NYC
+2024-05-14,05-14,May,14,Tuesday,1021,Very High,Number of rodent inspections conducted by NYC
+2024-05-15,05-15,May,15,Wednesday,964,High,Number of rodent inspections conducted by NYC
+2024-05-16,05-16,May,16,Thursday,1089,Very High,Number of rodent inspections conducted by NYC
+2024-05-17,05-17,May,17,Friday,1107,Very High,Number of rodent inspections conducted by NYC
+2024-05-18,05-18,May,18,Saturday,107,Low,Number of rodent inspections conducted by NYC
+2024-05-19,05-19,May,19,Sunday,85,Very Low,Number of rodent inspections conducted by NYC
+2024-05-20,05-20,May,20,Monday,263,Low,Number of rodent inspections conducted by NYC
+2024-05-21,05-21,May,21,Tuesday,888,High,Number of rodent inspections conducted by NYC
+2024-05-22,05-22,May,22,Wednesday,905,High,Number of rodent inspections conducted by NYC
+2024-05-23,05-23,May,23,Thursday,994,High,Number of rodent inspections conducted by NYC
+2024-05-24,05-24,May,24,Friday,1219,Very High,Number of rodent inspections conducted by NYC
+2024-05-25,05-25,May,25,Saturday,103,Low,Number of rodent inspections conducted by NYC
+2024-05-26,05-26,May,26,Sunday,73,Very Low,Number of rodent inspections conducted by NYC
+2024-05-27,05-27,May,27,Monday,5,Very Low,Number of rodent inspections conducted by NYC
+2024-05-28,05-28,May,28,Tuesday,833,Medium,Number of rodent inspections conducted by NYC
+2024-05-29,05-29,May,29,Wednesday,1062,Very High,Number of rodent inspections conducted by NYC
+2024-05-30,05-30,May,30,Thursday,1041,Very High,Number of rodent inspections conducted by NYC
+2024-05-31,05-31,May,31,Friday,1096,Very High,Number of rodent inspections conducted by NYC
+2024-06-01,06-01,June,1,Saturday,148,Low,Number of rodent inspections conducted by NYC
+2024-06-02,06-02,June,2,Sunday,89,Very Low,Number of rodent inspections conducted by NYC
+2024-06-03,06-03,June,3,Monday,1207,Very High,Number of rodent inspections conducted by NYC
+2024-06-04,06-04,June,4,Tuesday,1195,Very High,Number of rodent inspections conducted by NYC
+2024-06-05,06-05,June,5,Wednesday,937,High,Number of rodent inspections conducted by NYC
+2024-06-06,06-06,June,6,Thursday,1255,Very High,Number of rodent inspections conducted by NYC
+2024-06-07,06-07,June,7,Friday,908,High,Number of rodent inspections conducted by NYC
+2024-06-08,06-08,June,8,Saturday,110,Low,Number of rodent inspections conducted by NYC
+2024-06-09,06-09,June,9,Sunday,180,Low,Number of rodent inspections conducted by NYC
+2024-06-10,06-10,June,10,Monday,1108,Very High,Number of rodent inspections conducted by NYC
+2024-06-11,06-11,June,11,Tuesday,954,High,Number of rodent inspections conducted by NYC
+2024-06-12,06-12,June,12,Wednesday,877,Medium,Number of rodent inspections conducted by NYC
+2024-06-13,06-13,June,13,Thursday,1149,Very High,Number of rodent inspections conducted by NYC
+2024-06-14,06-14,June,14,Friday,948,High,Number of rodent inspections conducted by NYC
+2024-06-15,06-15,June,15,Saturday,140,Low,Number of rodent inspections conducted by NYC
+2024-06-16,06-16,June,16,Sunday,76,Very Low,Number of rodent inspections conducted by NYC
+2024-06-17,06-17,June,17,Monday,854,Medium,Number of rodent inspections conducted by NYC
+2024-06-18,06-18,June,18,Tuesday,852,Medium,Number of rodent inspections conducted by NYC
+2024-06-19,06-19,June,19,Wednesday,65,Very Low,Number of rodent inspections conducted by NYC
+2024-06-20,06-20,June,20,Thursday,1051,Very High,Number of rodent inspections conducted by NYC
+2024-06-21,06-21,June,21,Friday,1050,Very High,Number of rodent inspections conducted by NYC
+2024-06-22,06-22,June,22,Saturday,147,Low,Number of rodent inspections conducted by NYC
+2024-06-23,06-23,June,23,Sunday,68,Very Low,Number of rodent inspections conducted by NYC
+2024-06-24,06-24,June,24,Monday,1012,High,Number of rodent inspections conducted by NYC
+2024-06-25,06-25,June,25,Tuesday,830,Medium,Number of rodent inspections conducted by NYC
+2024-06-26,06-26,June,26,Wednesday,742,Medium,Number of rodent inspections conducted by NYC
+2024-06-27,06-27,June,27,Thursday,988,High,Number of rodent inspections conducted by NYC
+2024-06-28,06-28,June,28,Friday,819,Medium,Number of rodent inspections conducted by NYC
+2024-06-29,06-29,June,29,Saturday,352,Low,Number of rodent inspections conducted by NYC
+2024-06-30,06-30,June,30,Sunday,158,Low,Number of rodent inspections conducted by NYC
+2024-07-01,07-01,July,1,Monday,994,High,Number of rodent inspections conducted by NYC
+2024-07-02,07-02,July,2,Tuesday,1039,Very High,Number of rodent inspections conducted by NYC
+2024-07-03,07-03,July,3,Wednesday,779,Medium,Number of rodent inspections conducted by NYC
+2024-07-04,07-04,July,4,Thursday,1,Very Low,Number of rodent inspections conducted by NYC
+2024-07-05,07-05,July,5,Friday,826,Medium,Number of rodent inspections conducted by NYC
+2024-07-06,07-06,July,6,Saturday,1,Very Low,Number of rodent inspections conducted by NYC
+2024-07-07,07-07,July,7,Sunday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-07-08,07-08,July,8,Monday,944,High,Number of rodent inspections conducted by NYC
+2024-07-09,07-09,July,9,Tuesday,1170,Very High,Number of rodent inspections conducted by NYC
+2024-07-10,07-10,July,10,Wednesday,999,High,Number of rodent inspections conducted by NYC
+2024-07-11,07-11,July,11,Thursday,1069,Very High,Number of rodent inspections conducted by NYC
+2024-07-12,07-12,July,12,Friday,1118,Very High,Number of rodent inspections conducted by NYC
+2024-07-13,07-13,July,13,Saturday,1,Very Low,Number of rodent inspections conducted by NYC
+2024-07-14,07-14,July,14,Sunday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-07-15,07-15,July,15,Monday,944,High,Number of rodent inspections conducted by NYC
+2024-07-16,07-16,July,16,Tuesday,951,High,Number of rodent inspections conducted by NYC
+2024-07-17,07-17,July,17,Wednesday,848,Medium,Number of rodent inspections conducted by NYC
+2024-07-18,07-18,July,18,Thursday,1074,Very High,Number of rodent inspections conducted by NYC
+2024-07-19,07-19,July,19,Friday,929,High,Number of rodent inspections conducted by NYC
+2024-07-20,07-20,July,20,Saturday,46,Very Low,Number of rodent inspections conducted by NYC
+2024-07-21,07-21,July,21,Sunday,42,Very Low,Number of rodent inspections conducted by NYC
+2024-07-22,07-22,July,22,Monday,909,High,Number of rodent inspections conducted by NYC
+2024-07-23,07-23,July,23,Tuesday,1153,Very High,Number of rodent inspections conducted by NYC
+2024-07-24,07-24,July,24,Wednesday,803,Medium,Number of rodent inspections conducted by NYC
+2024-07-25,07-25,July,25,Thursday,825,Medium,Number of rodent inspections conducted by NYC
+2024-07-26,07-26,July,26,Friday,875,Medium,Number of rodent inspections conducted by NYC
+2024-07-27,07-27,July,27,Saturday,26,Very Low,Number of rodent inspections conducted by NYC
+2024-07-28,07-28,July,28,Sunday,31,Very Low,Number of rodent inspections conducted by NYC
+2024-07-29,07-29,July,29,Monday,767,Medium,Number of rodent inspections conducted by NYC
+2024-07-30,07-30,July,30,Tuesday,800,Medium,Number of rodent inspections conducted by NYC
+2024-07-31,07-31,July,31,Wednesday,680,Medium,Number of rodent inspections conducted by NYC
+2024-08-01,08-01,August,1,Thursday,877,Medium,Number of rodent inspections conducted by NYC
+2024-08-02,08-02,August,2,Friday,877,Medium,Number of rodent inspections conducted by NYC
+2024-08-03,08-03,August,3,Saturday,64,Very Low,Number of rodent inspections conducted by NYC
+2024-08-04,08-04,August,4,Sunday,95,Very Low,Number of rodent inspections conducted by NYC
+2024-08-05,08-05,August,5,Monday,950,High,Number of rodent inspections conducted by NYC
+2024-08-06,08-06,August,6,Tuesday,894,High,Number of rodent inspections conducted by NYC
+2024-08-07,08-07,August,7,Wednesday,111,Low,Number of rodent inspections conducted by NYC
+2024-08-08,08-08,August,8,Thursday,930,High,Number of rodent inspections conducted by NYC
+2024-08-09,08-09,August,9,Friday,770,Medium,Number of rodent inspections conducted by NYC
+2024-08-10,08-10,August,10,Saturday,122,Low,Number of rodent inspections conducted by NYC
+2024-08-11,08-11,August,11,Sunday,104,Low,Number of rodent inspections conducted by NYC
+2024-08-12,08-12,August,12,Monday,921,High,Number of rodent inspections conducted by NYC
+2024-08-13,08-13,August,13,Tuesday,1185,Very High,Number of rodent inspections conducted by NYC
+2024-08-14,08-14,August,14,Wednesday,889,High,Number of rodent inspections conducted by NYC
+2024-08-15,08-15,August,15,Thursday,1093,Very High,Number of rodent inspections conducted by NYC
+2024-08-16,08-16,August,16,Friday,923,High,Number of rodent inspections conducted by NYC
+2024-08-17,08-17,August,17,Saturday,128,Low,Number of rodent inspections conducted by NYC
+2024-08-18,08-18,August,18,Sunday,114,Low,Number of rodent inspections conducted by NYC
+2024-08-19,08-19,August,19,Monday,827,Medium,Number of rodent inspections conducted by NYC
+2024-08-20,08-20,August,20,Tuesday,1148,Very High,Number of rodent inspections conducted by NYC
+2024-08-21,08-21,August,21,Wednesday,840,Medium,Number of rodent inspections conducted by NYC
+2024-08-22,08-22,August,22,Thursday,872,Medium,Number of rodent inspections conducted by NYC
+2024-08-23,08-23,August,23,Friday,860,Medium,Number of rodent inspections conducted by NYC
+2024-08-24,08-24,August,24,Saturday,154,Low,Number of rodent inspections conducted by NYC
+2024-08-25,08-25,August,25,Sunday,82,Very Low,Number of rodent inspections conducted by NYC
+2024-08-26,08-26,August,26,Monday,751,Medium,Number of rodent inspections conducted by NYC
+2024-08-27,08-27,August,27,Tuesday,754,Medium,Number of rodent inspections conducted by NYC
+2024-08-28,08-28,August,28,Wednesday,641,Low,Number of rodent inspections conducted by NYC
+2024-08-29,08-29,August,29,Thursday,843,Medium,Number of rodent inspections conducted by NYC
+2024-08-30,08-30,August,30,Friday,804,Medium,Number of rodent inspections conducted by NYC
+2024-08-31,08-31,August,31,Saturday,94,Very Low,Number of rodent inspections conducted by NYC
+2024-09-01,09-01,September,1,Sunday,68,Very Low,Number of rodent inspections conducted by NYC
+2024-09-02,09-02,September,2,Monday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-09-03,09-03,September,3,Tuesday,1147,Very High,Number of rodent inspections conducted by NYC
+2024-09-04,09-04,September,4,Wednesday,889,High,Number of rodent inspections conducted by NYC
+2024-09-05,09-05,September,5,Thursday,969,High,Number of rodent inspections conducted by NYC
+2024-09-06,09-06,September,6,Friday,998,High,Number of rodent inspections conducted by NYC
+2024-09-07,09-07,September,7,Saturday,147,Low,Number of rodent inspections conducted by NYC
+2024-09-08,09-08,September,8,Sunday,92,Very Low,Number of rodent inspections conducted by NYC
+2024-09-09,09-09,September,9,Monday,958,High,Number of rodent inspections conducted by NYC
+2024-09-10,09-10,September,10,Tuesday,1096,Very High,Number of rodent inspections conducted by NYC
+2024-09-11,09-11,September,11,Wednesday,930,High,Number of rodent inspections conducted by NYC
+2024-09-12,09-12,September,12,Thursday,1222,Very High,Number of rodent inspections conducted by NYC
+2024-09-13,09-13,September,13,Friday,1169,Very High,Number of rodent inspections conducted by NYC
+2024-09-14,09-14,September,14,Saturday,229,Low,Number of rodent inspections conducted by NYC
+2024-09-15,09-15,September,15,Sunday,110,Low,Number of rodent inspections conducted by NYC
+2024-09-16,09-16,September,16,Monday,1062,Very High,Number of rodent inspections conducted by NYC
+2024-09-17,09-17,September,17,Tuesday,1099,Very High,Number of rodent inspections conducted by NYC
+2024-09-18,09-18,September,18,Wednesday,820,Medium,Number of rodent inspections conducted by NYC
+2024-09-19,09-19,September,19,Thursday,1120,Very High,Number of rodent inspections conducted by NYC
+2024-09-20,09-20,September,20,Friday,820,Medium,Number of rodent inspections conducted by NYC
+2024-09-21,09-21,September,21,Saturday,315,Low,Number of rodent inspections conducted by NYC
+2024-09-22,09-22,September,22,Sunday,96,Low,Number of rodent inspections conducted by NYC
+2024-09-23,09-23,September,23,Monday,816,Medium,Number of rodent inspections conducted by NYC
+2024-09-24,09-24,September,24,Tuesday,889,High,Number of rodent inspections conducted by NYC
+2024-09-25,09-25,September,25,Wednesday,761,Medium,Number of rodent inspections conducted by NYC
+2024-09-26,09-26,September,26,Thursday,942,High,Number of rodent inspections conducted by NYC
+2024-09-27,09-27,September,27,Friday,746,Medium,Number of rodent inspections conducted by NYC
+2024-09-28,09-28,September,28,Saturday,323,Low,Number of rodent inspections conducted by NYC
+2024-09-29,09-29,September,29,Sunday,340,Low,Number of rodent inspections conducted by NYC
+2024-09-30,09-30,September,30,Monday,682,Medium,Number of rodent inspections conducted by NYC
+2024-10-01,10-01,October,1,Tuesday,1096,Very High,Number of rodent inspections conducted by NYC
+2024-10-02,10-02,October,2,Wednesday,876,Medium,Number of rodent inspections conducted by NYC
+2024-10-03,10-03,October,3,Thursday,1082,Very High,Number of rodent inspections conducted by NYC
+2024-10-04,10-04,October,4,Friday,1059,Very High,Number of rodent inspections conducted by NYC
+2024-10-05,10-05,October,5,Saturday,194,Low,Number of rodent inspections conducted by NYC
+2024-10-06,10-06,October,6,Sunday,56,Very Low,Number of rodent inspections conducted by NYC
+2024-10-07,10-07,October,7,Monday,1000,High,Number of rodent inspections conducted by NYC
+2024-10-08,10-08,October,8,Tuesday,1093,Very High,Number of rodent inspections conducted by NYC
+2024-10-09,10-09,October,9,Wednesday,1123,Very High,Number of rodent inspections conducted by NYC
+2024-10-10,10-10,October,10,Thursday,662,Low,Number of rodent inspections conducted by NYC
+2024-10-11,10-11,October,11,Friday,984,High,Number of rodent inspections conducted by NYC
+2024-10-12,10-12,October,12,Saturday,321,Low,Number of rodent inspections conducted by NYC
+2024-10-13,10-13,October,13,Sunday,172,Low,Number of rodent inspections conducted by NYC
+2024-10-14,10-14,October,14,Monday,261,Low,Number of rodent inspections conducted by NYC
+2024-10-15,10-15,October,15,Tuesday,1272,Very High,Number of rodent inspections conducted by NYC
+2024-10-16,10-16,October,16,Wednesday,766,Medium,Number of rodent inspections conducted by NYC
+2024-10-17,10-17,October,17,Thursday,993,High,Number of rodent inspections conducted by NYC
+2024-10-18,10-18,October,18,Friday,1074,Very High,Number of rodent inspections conducted by NYC
+2024-10-19,10-19,October,19,Saturday,161,Low,Number of rodent inspections conducted by NYC
+2024-10-20,10-20,October,20,Sunday,41,Very Low,Number of rodent inspections conducted by NYC
+2024-10-21,10-21,October,21,Monday,878,Medium,Number of rodent inspections conducted by NYC
+2024-10-22,10-22,October,22,Tuesday,978,High,Number of rodent inspections conducted by NYC
+2024-10-23,10-23,October,23,Wednesday,549,Low,Number of rodent inspections conducted by NYC
+2024-10-24,10-24,October,24,Thursday,762,Medium,Number of rodent inspections conducted by NYC
+2024-10-25,10-25,October,25,Friday,774,Medium,Number of rodent inspections conducted by NYC
+2024-10-26,10-26,October,26,Saturday,201,Low,Number of rodent inspections conducted by NYC
+2024-10-27,10-27,October,27,Sunday,67,Very Low,Number of rodent inspections conducted by NYC
+2024-10-28,10-28,October,28,Monday,649,Low,Number of rodent inspections conducted by NYC
+2024-10-29,10-29,October,29,Tuesday,629,Low,Number of rodent inspections conducted by NYC
+2024-10-30,10-30,October,30,Wednesday,609,Low,Number of rodent inspections conducted by NYC
+2024-10-31,10-31,October,31,Thursday,651,Low,Number of rodent inspections conducted by NYC
+2024-11-01,11-01,November,1,Friday,726,Medium,Number of rodent inspections conducted by NYC
+2024-11-02,11-02,November,2,Saturday,113,Low,Number of rodent inspections conducted by NYC
+2024-11-03,11-03,November,3,Sunday,50,Very Low,Number of rodent inspections conducted by NYC
+2024-11-04,11-04,November,4,Monday,638,Low,Number of rodent inspections conducted by NYC
+2024-11-05,11-05,November,5,Tuesday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-11-06,11-06,November,6,Wednesday,889,High,Number of rodent inspections conducted by NYC
+2024-11-07,11-07,November,7,Thursday,1034,Very High,Number of rodent inspections conducted by NYC
+2024-11-08,11-08,November,8,Friday,1215,Very High,Number of rodent inspections conducted by NYC
+2024-11-09,11-09,November,9,Saturday,116,Low,Number of rodent inspections conducted by NYC
+2024-11-10,11-10,November,10,Sunday,179,Low,Number of rodent inspections conducted by NYC
+2024-11-11,11-11,November,11,Monday,39,Very Low,Number of rodent inspections conducted by NYC
+2024-11-12,11-12,November,12,Tuesday,997,High,Number of rodent inspections conducted by NYC
+2024-11-13,11-13,November,13,Wednesday,956,High,Number of rodent inspections conducted by NYC
+2024-11-14,11-14,November,14,Thursday,1042,Very High,Number of rodent inspections conducted by NYC
+2024-11-15,11-15,November,15,Friday,991,High,Number of rodent inspections conducted by NYC
+2024-11-16,11-16,November,16,Saturday,67,Very Low,Number of rodent inspections conducted by NYC
+2024-11-17,11-17,November,17,Sunday,95,Very Low,Number of rodent inspections conducted by NYC
+2024-11-18,11-18,November,18,Monday,977,High,Number of rodent inspections conducted by NYC
+2024-11-19,11-19,November,19,Tuesday,703,Medium,Number of rodent inspections conducted by NYC
+2024-11-20,11-20,November,20,Wednesday,615,Low,Number of rodent inspections conducted by NYC
+2024-11-21,11-21,November,21,Thursday,662,Low,Number of rodent inspections conducted by NYC
+2024-11-22,11-22,November,22,Friday,716,Medium,Number of rodent inspections conducted by NYC
+2024-11-23,11-23,November,23,Saturday,132,Low,Number of rodent inspections conducted by NYC
+2024-11-24,11-24,November,24,Sunday,77,Very Low,Number of rodent inspections conducted by NYC
+2024-11-25,11-25,November,25,Monday,862,Medium,Number of rodent inspections conducted by NYC
+2024-11-26,11-26,November,26,Tuesday,708,Medium,Number of rodent inspections conducted by NYC
+2024-11-27,11-27,November,27,Wednesday,480,Low,Number of rodent inspections conducted by NYC
+2024-11-28,11-28,November,28,Thursday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-11-29,11-29,November,29,Friday,399,Low,Number of rodent inspections conducted by NYC
+2024-11-30,11-30,November,30,Saturday,65,Very Low,Number of rodent inspections conducted by NYC
+2024-12-01,12-01,December,1,Sunday,57,Very Low,Number of rodent inspections conducted by NYC
+2024-12-02,12-02,December,2,Monday,751,Medium,Number of rodent inspections conducted by NYC
+2024-12-03,12-03,December,3,Tuesday,856,Medium,Number of rodent inspections conducted by NYC
+2024-12-04,12-04,December,4,Wednesday,696,Medium,Number of rodent inspections conducted by NYC
+2024-12-05,12-05,December,5,Thursday,862,Medium,Number of rodent inspections conducted by NYC
+2024-12-06,12-06,December,6,Friday,986,High,Number of rodent inspections conducted by NYC
+2024-12-07,12-07,December,7,Saturday,103,Low,Number of rodent inspections conducted by NYC
+2024-12-08,12-08,December,8,Sunday,91,Very Low,Number of rodent inspections conducted by NYC
+2024-12-09,12-09,December,9,Monday,983,High,Number of rodent inspections conducted by NYC
+2024-12-10,12-10,December,10,Tuesday,795,Medium,Number of rodent inspections conducted by NYC
+2024-12-11,12-11,December,11,Wednesday,779,Medium,Number of rodent inspections conducted by NYC
+2024-12-12,12-12,December,12,Thursday,984,High,Number of rodent inspections conducted by NYC
+2024-12-13,12-13,December,13,Friday,801,Medium,Number of rodent inspections conducted by NYC
+2024-12-14,12-14,December,14,Saturday,58,Very Low,Number of rodent inspections conducted by NYC
+2024-12-15,12-15,December,15,Sunday,54,Very Low,Number of rodent inspections conducted by NYC
+2024-12-16,12-16,December,16,Monday,511,Low,Number of rodent inspections conducted by NYC
+2024-12-17,12-17,December,17,Tuesday,677,Low,Number of rodent inspections conducted by NYC
+2024-12-18,12-18,December,18,Wednesday,627,Low,Number of rodent inspections conducted by NYC
+2024-12-19,12-19,December,19,Thursday,609,Low,Number of rodent inspections conducted by NYC
+2024-12-20,12-20,December,20,Friday,321,Low,Number of rodent inspections conducted by NYC
+2024-12-21,12-21,December,21,Saturday,27,Very Low,Number of rodent inspections conducted by NYC
+2024-12-22,12-22,December,22,Sunday,27,Very Low,Number of rodent inspections conducted by NYC
+2024-12-23,12-23,December,23,Monday,359,Low,Number of rodent inspections conducted by NYC
+2024-12-24,12-24,December,24,Tuesday,59,Very Low,Number of rodent inspections conducted by NYC
+2024-12-25,12-25,December,25,Wednesday,0,Very Low,Number of rodent inspections conducted by NYC
+2024-12-26,12-26,December,26,Thursday,413,Low,Number of rodent inspections conducted by NYC
+2024-12-27,12-27,December,27,Friday,502,Low,Number of rodent inspections conducted by NYC
+2024-12-28,12-28,December,28,Saturday,40,Very Low,Number of rodent inspections conducted by NYC
+2024-12-29,12-29,December,29,Sunday,21,Very Low,Number of rodent inspections conducted by NYC
+2024-12-30,12-30,December,30,Monday,550,Low,Number of rodent inspections conducted by NYC
+2024-12-31,12-31,December,31,Tuesday,390,Low,Number of rodent inspections conducted by NYC
