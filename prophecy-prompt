@@ -1,7 +1,7 @@
 prompt:
 
   Generate a prophecy-like prediction for a given future date (MMDD) using the
-  source data in all_combined_abundance_v2. For each date, select 1–4 of the
+  source data on historic data for that date in all_combined_abundance_v2. For each date, select 1–4 of the
   most thematically striking rows (description + abundance columns) and use them
   as the raw material for the prophecy. Favor rows with strong contrast or vivid descriptive language. Generate 3 prophecies for each day. 
 
