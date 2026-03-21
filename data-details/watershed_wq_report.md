@@ -1,0 +1,177 @@
+# NYC Watershed Water Quality: Seasonal Pattern Analysis
+
+**Report generated:** 2026-03-16  
+**Dataset:** Watershed Water Quality / Limnology (`3y4p-uusw`)  
+**Source:** data.cityofnewyork.us  
+**Window:** 2021-12-01 to 2024-12-30 (last 3 years of available data)  
+**Rows analysed:** 41,974  
+**Method:** Monthly median per analyte → STL decomposition (period=12, robust=True)  
+**Seasonal strength:** 0 = no pattern, 1 = perfectly seasonal  
+
+---
+
+## 1. Seasonal Strength by Analyte
+
+| Analyte | Unit | Months of Data | 3-yr Median | Seasonal Strength | Peak Month | Trough Month | Jan–Dec Sparkline |
+|---|---|---|---|---|---|---|---|
+| Total Phosphorus | µg/L | 25 | 14.0 | **1.000** | Oct | Dec | `▁▁▁   ▃▁▅██ ` |
+| Dissolved Organic Carbon | mg/L | 26 | 2.0 | **0.999** | Dec | Jun | `▁▁▁    ▁▂▂▁█` |
+| Total Nitrogen | mg/L | 25 | 0.28 | **0.999** | Jul | Dec | `▇▇▇▅▅██▇▇▇▅ ` |
+| Fecal Coliform | CFU/100mL | 26 | 31.5 | **0.991** | May | Mar | `▄▄ ▂▇█▅▅▂▄▃▇` |
+| Dissolved Oxygen | mg/L | 32 | 9.15 | **0.987** | Mar | Sep | `▃▇█▇▅▃▂▁  ▃▅` |
+| Temperature | °C | 33 | 11.7 | **0.973** | Aug | Jan | `   ▂▄▆▇██▆▄▂` |
+| Chlorophyll a | µg/L | 24 | 3.9 | **0.919** | Sep | Jul | `▃▃▃▁▁▂ ▆█▆▄▃` |
+| Total Plankton | ASU/mL | 32 | 277.5 | **0.858** | Feb | Dec | `▁█▃▂▂▁▁▂▁▁  ` |
+| pH | SU | 32 | 7.045 | **0.856** | Feb | Dec | `▁█▂▃▂▂▁▁  ▁ ` |
+| Turbidity | NTU | 36 | 1.2 | **0.791** | Jan | Feb | `▂▁ █▅▃▃▅▅█▅▃` |
+| Microcystins | µg/L | 3 | 0.46 | — | N/A | N/A | `▄▄▄▄▄ ▄▄▄█▄▄` |
+
+### Monthly Profile Table (% deviation from 3-year monthly median)
+
+| Analyte | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Temperature | -69% | -67% | -65% | -40% | -4% | +34% | +54% | +63% | +56% | +32% | +4% | -35% |
+| Dissolved Oxygen | +nan% | +36% | +42% | +32% | +17% | +0% | -10% | -20% | -27% | -25% | -2% | +14% |
+| pH | +nan% | +10% | +1% | +3% | +2% | +2% | -0% | -0% | -2% | -1% | +0% | -1% |
+| Turbidity | -9% | -12% | -19% | +22% | +4% | -4% | -4% | +4% | +4% | +22% | +9% | -5% |
+| Chlorophyll a | +nan% | +nan% | +nan% | -20% | -21% | -7% | -30% | +30% | +44% | +24% | +7% | +nan% |
+| Total Phosphorus | +nan% | +nan% | +nan% | -4% | -4% | -4% | +4% | +0% | +11% | +18% | +18% | -4% |
+| Fecal Coliform | +nan% | +nan% | -18% | -10% | +14% | +17% | +2% | +4% | -8% | -2% | -5% | +13% |
+| Total Plankton | +nan% | +326% | +76% | +26% | +37% | +0% | -18% | +30% | -7% | -7% | -22% | -44% |
+| Microcystins | +nan% | +nan% | +nan% | +nan% | +nan% | -30% | +nan% | +nan% | +0% | +37% | +nan% | +nan% |
+| Total Nitrogen | +nan% | +nan% | +nan% | -7% | -7% | +4% | +4% | +0% | +0% | +0% | -7% | -25% |
+| Dissolved Organic Carbon | +nan% | +nan% | +nan% | -5% | -5% | -5% | -5% | +0% | +5% | +5% | +0% | +29% |
+
+---
+
+## 2. Key Seasonal Findings
+
+### Temperature
+Strength: **0.973** | Peak: **Aug** | Trough: **Jan**
+
+Water temperature follows a textbook seasonal cycle, peaking in Aug and bottoming in Jan. 3-year median surface temperature: 11.7 °C. This is the benchmark driver — most other analytes are thermally or biologically coupled to it.
+
+### Dissolved Oxygen
+Strength: **0.987** | Peak: **Mar** | Trough: **Sep**
+
+DO is inversely coupled to temperature (cold water holds more oxygen). It troughs in Sep when surface water is warmest and algal/microbial O₂ demand peaks. Low DO in summer stratified layers is a key stress indicator for reservoir health.
+
+### Chlorophyll a (Algal Biomass)
+Strength: **0.919** | Peak: **Sep** | Trough: **Jul**
+
+Chlorophyll a is a direct proxy for phytoplankton / algal biomass. It peaks in Sep when nutrient loading + warm temperatures + long daylight hours drive algal blooms. High Chlorophyll a is correlated with taste/odor events and elevated Microcystin risk. Profile: May=-21%, Jun=-7%, Jul=-30%, Aug=+30%, Sep=+44%, Oct=+24%.
+
+### Total Phosphorus
+Strength: **1.000** | Peak: **Oct** | Trough: **Dec**
+
+Phosphorus is the primary limiting nutrient for algal growth in NYC's reservoirs. It peaks in Oct — likely driven by stormwater runoff during spring melt and summer thunderstorms washing agricultural and road-surface phosphorus into watersheds.
+
+### Turbidity
+Strength: **0.791** | Peak: **Jan** | Trough: **Feb**
+
+Turbidity (water cloudiness) peaks in Jan — indicating the timing of peak sediment and particulate loading. Spring snowmelt and early-summer storms typically flush the most suspended material into reservoirs. High turbidity events trigger treatment challenges at NYC's water filtration plants.
+
+### Fecal Coliform
+Strength: **0.991** | Peak: **May** | Trough: **Mar**
+
+Fecal coliform peaks in May. This likely reflects increased human/animal recreational activity in watersheds and elevated bacterial survival in warm water. Coliform peaks are a drinking-water safety trigger for NYC DEP.
+
+### Microcystins (Cyanotoxins)
+Strength: **N/A** | Peak: **N/A** | Trough: **N/A**
+
+Microcystins — toxins produced by cyanobacteria (blue-green algae) — peak in N/A. They require warm, nutrient-rich, calm water to bloom. The WHO guideline for drinking water is 1 µg/L; recreational thresholds are lower. 3-year median: 0.46 µg/L.
+
+### Total Plankton
+Strength: **0.858** | Peak: **Feb** | Trough: **Dec**
+
+Total plankton follows thermal stratification — blooms in Feb when warmer surface layers provide ideal growing conditions. Plankton succession (diatoms → green algae → cyanobacteria) drives the characteristic taste and odor events in NYC's water supply each summer.
+
+### Coupled Signal: Temperature ↔ Dissolved Oxygen
+
+Temperature peaks in **Aug** and DO troughs in **Sep** — confirming the classic inverse thermal-oxygen coupling. As surface water warms, oxygen solubility drops and biological oxygen demand rises, compressing the oxygenated layer and stressing aquatic organisms in lower strata.
+
+---
+
+## 3. Reservoir-Level Seasonal Patterns (Temperature)
+
+Monthly median surface temperature (°C) by reservoir:
+
+| Reservoir | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Amawalk | — | — | — | 6.6 | 9.3 | 10.7 | 12.7 | 14.7 | 15.6 | 14.9 | 13.2 | — |
+| Ashokan East Basin | 3.5 | — | — | 5.6 | 9.0 | 13.3 | 14.3 | 13.9 | 11.9 | 11.1 | 11.7 | 7.1 |
+| Ashokan West Basin | — | — | — | 6.1 | 9.1 | 12.6 | 17.5 | 16.8 | 15.3 | 13.0 | 9.4 | 6.5 |
+| Bog Brook | — | — | — | 7.1 | 9.2 | 10.4 | 13.9 | 15.5 | 20.1 | 16.0 | 9.5 | — |
+| Boyd Corners | — | — | — | 9.8 | 12.5 | 13.6 | 14.9 | 19.8 | 20.2 | 15.8 | 7.5 | — |
+| Cannonsville | — | — | — | 5.5 | 9.7 | 13.4 | 16.5 | 21.5 | 20.4 | 17.2 | 12.6 | 5.6 |
+| Cross River | — | 3.7 | 3.9 | 7.8 | 13.2 | 21.9 | 24.1 | 24.7 | 12.0 | 9.7 | 9.5 | — |
+| Croton Falls | — | 3.9 | 4.0 | 7.8 | 14.1 | 21.3 | 23.8 | 24.4 | 17.6 | 15.5 | 13.0 | 8.6 |
+| Diverting | — | — | — | 9.4 | 13.7 | 17.9 | 20.1 | 21.8 | 18.0 | 13.7 | 12.2 | — |
+| East Branch | — | — | — | 7.5 | 9.8 | 12.2 | 15.2 | 17.9 | 19.9 | 14.5 | 8.6 | — |
+| Kensico | — | — | 4.0 | 6.4 | 10.4 | 14.5 | 15.0 | 18.3 | 17.8 | 15.0 | 11.7 | 7.4 |
+| Kirk Lake | — | — | — | 10.3 | 15.2 | 18.7 | 22.4 | 23.9 | 21.4 | 15.4 | 13.0 | — |
+| Lake Gilead | — | — | — | 5.0 | 5.3 | 5.1 | 5.0 | 5.1 | 5.0 | 9.2 | 8.0 | — |
+| Lake Gleneida | — | — | — | 5.6 | 6.0 | 6.0 | 6.1 | 6.1 | 6.1 | 8.2 | 6.1 | — |
+| Middle Branch | — | — | — | 8.2 | 12.1 | 12.1 | 13.5 | 15.1 | 18.6 | 14.6 | 12.6 | — |
+| Muscoot | — | — | — | 11.0 | 14.6 | 19.8 | 24.5 | 23.4 | 20.6 | 15.1 | 12.6 | — |
+| Neversink | — | — | — | 5.3 | 9.3 | 11.4 | 13.8 | 15.4 | 11.9 | 9.2 | 9.7 | 6.5 |
+| New Croton | — | — | — | 7.8 | 12.8 | 19.7 | 23.8 | 24.0 | 20.0 | 15.2 | 12.4 | 8.4 |
+| Pepacton | — | — | — | 5.7 | 10.5 | 12.1 | 14.6 | 11.4 | 11.1 | 12.6 | 9.5 | 6.6 |
+| Rondout | — | — | 4.1 | 4.8 | 7.2 | 12.8 | 16.1 | 17.0 | 16.2 | 14.4 | 11.3 | 8.6 |
+| Schoharie | — | — | — | 5.4 | 9.4 | 15.1 | 17.4 | 19.3 | 18.9 | 11.7 | 9.3 | — |
+| Titicus | — | — | — | 7.1 | 12.3 | 15.9 | 22.9 | 25.4 | 23.2 | 16.5 | 11.2 | — |
+| West Branch | — | — | 4.5 | 7.3 | 10.1 | 12.8 | 14.6 | 16.5 | 16.2 | 14.9 | 12.6 | 7.5 |
+
+Monthly median Chlorophyll a (µg/L) by reservoir:
+
+| Reservoir | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Amawalk | — | — | — | — | — | — | 60.80 | — | — | — | — | — |
+| Ashokan East Basin | — | — | — | 3.30 | 3.00 | 1.55 | 1.00 | 1.90 | 3.20 | 2.60 | 3.50 | — |
+| Ashokan West Basin | — | — | — | 2.30 | 3.50 | 3.40 | 3.60 | 6.00 | 5.30 | 4.30 | 3.20 | — |
+| Bog Brook | — | — | — | 6.70 | 4.60 | 4.20 | 2.30 | 3.70 | 6.40 | 13.25 | — | — |
+| Boyd Corners | — | — | — | 2.40 | 3.50 | 4.70 | 5.80 | 9.30 | 11.80 | 12.50 | 11.05 | — |
+| Cannonsville | — | — | — | 3.50 | 5.70 | 5.10 | 2.10 | 7.05 | 13.90 | 8.30 | 6.00 | — |
+| Cross River | — | — | — | 7.30 | 4.10 | 4.90 | 4.40 | 7.50 | 5.00 | 5.95 | 6.70 | — |
+| Croton Falls | — | — | — | 6.20 | 6.80 | 4.00 | 9.05 | 16.15 | 12.20 | 15.30 | 13.40 | — |
+| Diverting | — | — | — | 6.20 | — | — | — | 11.00 | 22.80 | — | — | — |
+| East Branch | — | — | — | 4.20 | 2.80 | 4.50 | 26.80 | 21.60 | 6.50 | 28.30 | — | — |
+| Kensico | — | — | — | 2.10 | 2.20 | 2.85 | 2.80 | 2.65 | 2.90 | 3.90 | 3.50 | — |
+| Lake Gleneida | — | — | — | — | 1.00 | — | — | — | — | 22.20 | — | — |
+| Middle Branch | — | — | — | 9.25 | — | — | — | 25.00 | 9.70 | 11.00 | — | — |
+| Muscoot | — | — | — | 4.40 | 6.50 | 9.80 | 9.30 | 11.60 | 15.95 | 9.00 | — | — |
+| Neversink | — | — | — | 1.60 | 1.80 | 1.30 | 1.70 | 3.90 | 4.20 | 4.15 | 3.20 | — |
+| New Croton | — | — | — | 5.50 | 5.70 | 9.10 | 7.10 | 12.90 | 9.85 | 6.70 | 6.00 | — |
+| Pepacton | — | — | — | 3.70 | 3.30 | 2.50 | 2.35 | 3.10 | 6.00 | 5.30 | 4.00 | — |
+| Rondout | — | — | — | 3.00 | 3.20 | 2.50 | 1.90 | 3.80 | 6.00 | 5.30 | 3.00 | — |
+| Schoharie | — | — | — | 0.55 | 1.35 | 2.85 | 2.20 | 3.70 | 7.10 | 4.55 | 3.25 | — |
+| Titicus | — | — | — | — | — | — | — | — | — | 11.00 | — | — |
+| West Branch | — | — | — | 3.35 | 2.95 | 2.35 | 4.10 | 3.80 | 5.90 | 6.30 | 3.80 | — |
+
+---
+
+## 4. Surprising / Notable Patterns
+
+- **Dissolved oxygen drops nan% below the annual median in Jan** — a significant summer oxygen deficit that can create hypoxic conditions in deeper reservoir layers, stressing fish and other aquatic life.
+
+- **Chlorophyll a spikes +44% above average in Sep** — indicating a pronounced algal bloom season. This is the ecological fingerprint of the reservoir's growing season and the primary driver of taste/odor events in the drinking water supply.
+
+- **Turbidity peaks in Jan but temperature peaks in Aug** — sediment loading is driven by early-season runoff (snowmelt, rain-on-snow events), not by summer heat. This offset means the worst clarity periods and the worst algal periods don't fully overlap.
+
+- **Total Phosphorus peaks in Oct** — watershed nutrient loading is concentrated in early-season storm events. This spring phosphorus pulse seeds the nutrient reservoir that fuels late-summer algal blooms weeks or months later (a lag effect between cause and consequence).
+
+---
+
+## 5. Methodology
+
+- **Data window:** latest available date − 3 years, filtered to 11 key analytes
+- **Aggregation:** monthly median across all sites, depths, and reservoirs (city-wide)
+- **STL decomposition:** `STL(series, period=12, robust=True)` — robust to outliers and sampling gaps
+- **Seasonal strength:** `max(0, 1 − Var(residual) / Var(seasonal+residual))`
+- **Profile:** median by calendar month, expressed as % deviation from the 3-year monthly median
+- **Note:** 3 years = ~3 repetitions per season — STL estimates are noisier than longer series;
+  treat strength values as indicative rather than definitive
+
+**Dataset:** Watershed Water Quality Limnology  
+**API:** `https://data.cityofnewyork.us/resource/3y4p-uusw.json`  
+**Dataset ID:** `3y4p-uusw`

@@ -1,0 +1,46 @@
+dataset_name,dataset_id,url,date_col,seasonal_strength,years_of_data,months,interestingness,annual_fft,agency
+Multiple Dwelling Registrations,tesw-yqqr,https://data.cityofnewyork.us/d/tesw-yqqr,lastregistrationdate,0.9917,32.9,395,5,False,Housing & Development
+Watershed Water Quality - Limnology,3y4p-uusw,https://data.cityofnewyork.us/d/3y4p-uusw,sample_date,0.9417,40.8,489,5,True,Environment
+Watershed Water Quality - Limnology Qualifiers,6uh5-5j7x,https://data.cityofnewyork.us/d/6uh5-5j7x,sample_date,0.8426,40.8,489,5,False,Environment
+Annual On-Street Parking Permit (AOSPP),ue2f-z6i6,https://data.cityofnewyork.us/d/ue2f-z6i6,issue_date,0.8168,24.3,292,5,True,Transportation
+DOT In-house Street Resurfacing Projects,ffaf-8mrv,https://data.cityofnewyork.us/d/ffaf-8mrv,location_actual_paving_end_date,0.8068,23.8,286,5,True,Transportation
+Street Closures due to Construction Activities by Block and Intersection,ezy6-djsf,https://data.cityofnewyork.us/d/ezy6-djsf,workstartdate,0.7423,35.2,423,5,False,Transportation
+DOHMH Dog Bite Data,rsgh-akpg,https://data.cityofnewyork.us/d/rsgh-akpg,dateofbite,0.6496,10.0,120,5,True,Health
+Parks Inspection Program – Inspections,yg3y-7juh,https://data.cityofnewyork.us/d/yg3y-7juh,inspaddeddate,0.6305,17.9,215,5,False,
+Watershed Water Quality - Hydrology Qualifiers,shus-qn78,https://data.cityofnewyork.us/d/shus-qn78,sample_date,0.6263,38.0,456,5,False,Environment
+Work Order Management Module,4fvw-nn9c,https://data.cityofnewyork.us/d/4fvw-nn9c,time_stamp,0.4774,11.0,132,5,True,Environment
+Watershed Water Quality - Hydrology,e3xf-jwmj,https://data.cityofnewyork.us/d/e3xf-jwmj,sample_date,0.4582,38.0,456,5,False,Environment
+Street Construction Permits - Cranes,hcv3-zacv,https://data.cityofnewyork.us/d/hcv3-zacv,createdon,0.4567,12.1,145,5,False,Transportation
+Watershed Water Quality - Keypoint,wcg2-rbkn,https://data.cityofnewyork.us/d/wcg2-rbkn,sample_date,0.4227,38.0,456,5,False,Environment
+Street Resurfacing Schedule,xnfm-u3k5,https://data.cityofnewyork.us/d/xnfm-u3k5,date,0.8251,6.4,77,3,True,Transportation
+NYPD Criminal Court Summons (Historic),sv2w-rv3k,https://data.cityofnewyork.us/d/sv2w-rv3k,summons_date,0.8007,19.0,228,3,False,Public Safety
+Urban Park Ranger Engagement Tracker,rcd4-qkns,https://data.cityofnewyork.us/d/rcd4-qkns,date,0.7314,5.1,61,3,False,Education
+NYC Pool Inspections,3kfa-rvez,https://data.cityofnewyork.us/d/3kfa-rvez,inspection_date,0.7159,6.0,72,3,True,Health
+NYPD Complaint Data Historic,qgea-i56i,https://data.cityofnewyork.us/d/qgea-i56i,rpt_dt,0.7148,19.0,228,3,False,Public Safety
+Shootings (2006-Present),5ucz-vwe8,https://data.cityofnewyork.us/d/5ucz-vwe8,occur_date,0.6886,20.0,240,3,True,Public Safety
+ARCHIVED_NYPD Shooting Incident Data (Historic),833y-fsy8,https://data.cityofnewyork.us/d/833y-fsy8,occur_date,0.6828,19.0,228,3,True,Public Safety
+Highway Travel Permit- Single Use,qves-4x9c,https://data.cityofnewyork.us/d/qves-4x9c,expiration_date,0.6598,17.6,211,3,True,Transportation
+Buildings Selected for the Alternative Enforcement Program (AEP),hcir-3275,https://data.cityofnewyork.us/d/hcir-3275,discharge_date,0.6339,18.2,219,3,True,Housing & Development
+Affordable Housing Production by Project,hq68-rnsi,https://data.cityofnewyork.us/d/hq68-rnsi,project_completion_date,0.5981,12.1,145,3,False,Housing & Development
+NYPD Arrests Data (Historic),8h9b-rp9u,https://data.cityofnewyork.us/d/8h9b-rp9u,arrest_date,0.5761,19.0,228,3,False,Public Safety
+Mandatory Inspections by Fire Companies,kfgh-h6re,https://data.cityofnewyork.us/d/kfgh-h6re,insp_inspect_dt_fk,0.515,12.7,152,3,False,Public Safety
+NYPD Personnel Demographics,5vr7-5fki,https://data.cityofnewyork.us/d/5vr7-5fki,appdate,0.5039,52.8,634,3,False,Public Safety
+Open Market Order (OMO) Charges,mdbu-nrqn,https://data.cityofnewyork.us/d/mdbu-nrqn,omocreatedate,0.4724,27.8,333,3,False,Housing & Development
+Staff Injuries - Class A Injuries,7hi3-kaps,https://data.cityofnewyork.us/d/7hi3-kaps,reported_dt,0.4529,10.2,122,3,False,Public Safety
+Urban Park Ranger Animal Condition Response,fuhs-xmg2,https://data.cityofnewyork.us/d/fuhs-xmg2,date_and_time_of_initial,0.4429,7.8,94,3,True,Environment
+911 End-to-End Data,t7p9-n9dy,https://data.cityofnewyork.us/d/t7p9-n9dy,date,0.4278,12.3,148,3,False,Public Safety
+Sidewalk Management Database - Built,ugc8-s3f6,https://data.cityofnewyork.us/d/ugc8-s3f6,dot_contstruct_date,0.4012,33.2,399,3,True,Transportation
+Protected Streets Map - Block (Dataset),wyih-3nzf,https://data.cityofnewyork.us/d/wyih-3nzf,dateprotec,0.9774,4.8,58,2,True,Transportation
+Protected Streets Map - Intersection (Dataset),bryy-vqd9,https://data.cityofnewyork.us/d/bryy-vqd9,dateprotec,0.9415,4.8,58,2,True,Transportation
+DOHMH Childcare Center Inspections (Historical),dsg6-ifza,https://data.cityofnewyork.us/d/dsg6-ifza,inspectiondate,0.6121,3.0,36,2,True,Health
+Industrial & Commercial Abatement Program (ICAP) Businesses that received EO50 certificate of approval from SBS,9a87-6m4x,https://data.cityofnewyork.us/d/9a87-6m4x,date,0.5345,3.1,37,2,True,Business
+DOHMH School Cafeteria Inspections (2020-Present),5ery-qagt,https://data.cityofnewyork.us/d/5ery-qagt,inspectiondate,0.523,3.1,37,2,True,Health
+NYC Ferry Ridership,t5n6-gx8c,https://data.cityofnewyork.us/d/t5n6-gx8c,date,0.6218,8.6,103,1,False,Transportation
+NYPD Use of Force Incidents,f4tj-796d,https://data.cityofnewyork.us/d/f4tj-796d,occurrence_date,0.5079,6.0,72,1,False,Public Safety
+Bureau of Fire Investigations - Fire Causes,ii3r-svjz,https://data.cityofnewyork.us/d/ii3r-svjz,incident_datetime,0.4341,9.7,116,1,False,Public Safety
+NYPD OATH Summons Data,hxbk-grd3,https://data.cityofnewyork.us/d/hxbk-grd3,occur_date,0.9005,3.0,36,0,True,Public Safety
+NYPD Vehicle Stop Reports,hn9i-dwpr,https://data.cityofnewyork.us/d/hn9i-dwpr,occur_dt,0.8804,3.0,36,0,True,Public Safety
+Historical Medallion  Vehicles - Authorized,pvkv-25ck,https://data.cityofnewyork.us/d/pvkv-25ck,last_updated_date,0.8133,3.8,46,0,False,Transportation
+Aquatics Programming: 2021 to current,bzby-7sfr,https://data.cityofnewyork.us/d/bzby-7sfr,starttime,0.8002,4.2,51,0,False,Recreation
+NYCHA Citywide Special Events,7iqz-npua,https://data.cityofnewyork.us/d/7iqz-npua,start_time,0.487,3.1,37,0,True,Recreation
+Prequalified Firms,szkz-syh6,https://data.cityofnewyork.us/d/szkz-syh6,prequalified_vendor_date,0.4612,3.1,37,0,False,Housing & Development

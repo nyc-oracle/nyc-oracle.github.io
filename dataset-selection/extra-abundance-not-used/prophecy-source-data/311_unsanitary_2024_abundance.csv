@@ -1,0 +1,367 @@
+date,mmdd,month,day,weekday,count,abundance
+2024-01-01,01-01,January,1,Monday,162,Very Low
+2024-01-02,01-02,January,2,Tuesday,383,High
+2024-01-03,01-03,January,3,Wednesday,426,High
+2024-01-04,01-04,January,4,Thursday,458,Very High
+2024-01-05,01-05,January,5,Friday,367,Medium
+2024-01-06,01-06,January,6,Saturday,204,Low
+2024-01-07,01-07,January,7,Sunday,194,Very Low
+2024-01-08,01-08,January,8,Monday,419,High
+2024-01-09,01-09,January,9,Tuesday,420,High
+2024-01-10,01-10,January,10,Wednesday,493,Very High
+2024-01-11,01-11,January,11,Thursday,421,High
+2024-01-12,01-12,January,12,Friday,358,Medium
+2024-01-13,01-13,January,13,Saturday,194,Very Low
+2024-01-14,01-14,January,14,Sunday,165,Very Low
+2024-01-15,01-15,January,15,Monday,316,Medium
+2024-01-16,01-16,January,16,Tuesday,484,Very High
+2024-01-17,01-17,January,17,Wednesday,478,Very High
+2024-01-18,01-18,January,18,Thursday,464,Very High
+2024-01-19,01-19,January,19,Friday,368,Medium
+2024-01-20,01-20,January,20,Saturday,231,Low
+2024-01-21,01-21,January,21,Sunday,268,Low
+2024-01-22,01-22,January,22,Monday,462,Very High
+2024-01-23,01-23,January,23,Tuesday,441,Very High
+2024-01-24,01-24,January,24,Wednesday,363,Medium
+2024-01-25,01-25,January,25,Thursday,399,High
+2024-01-26,01-26,January,26,Friday,334,Medium
+2024-01-27,01-27,January,27,Saturday,178,Very Low
+2024-01-28,01-28,January,28,Sunday,194,Very Low
+2024-01-29,01-29,January,29,Monday,393,High
+2024-01-30,01-30,January,30,Tuesday,356,Medium
+2024-01-31,01-31,January,31,Wednesday,327,Medium
+2024-02-01,02-01,February,1,Thursday,382,High
+2024-02-02,02-02,February,2,Friday,302,Low
+2024-02-03,02-03,February,3,Saturday,187,Very Low
+2024-02-04,02-04,February,4,Sunday,181,Very Low
+2024-02-05,02-05,February,5,Monday,358,Medium
+2024-02-06,02-06,February,6,Tuesday,409,High
+2024-02-07,02-07,February,7,Wednesday,383,High
+2024-02-08,02-08,February,8,Thursday,303,Low
+2024-02-09,02-09,February,9,Friday,282,Low
+2024-02-10,02-10,February,10,Saturday,201,Low
+2024-02-11,02-11,February,11,Sunday,162,Very Low
+2024-02-12,02-12,February,12,Monday,401,High
+2024-02-13,02-13,February,13,Tuesday,312,Medium
+2024-02-14,02-14,February,14,Wednesday,266,Low
+2024-02-15,02-15,February,15,Thursday,345,Medium
+2024-02-16,02-16,February,16,Friday,318,Medium
+2024-02-17,02-17,February,17,Saturday,155,Very Low
+2024-02-18,02-18,February,18,Sunday,164,Very Low
+2024-02-19,02-19,February,19,Monday,235,Low
+2024-02-20,02-20,February,20,Tuesday,360,Medium
+2024-02-21,02-21,February,21,Wednesday,335,Medium
+2024-02-22,02-22,February,22,Thursday,339,Medium
+2024-02-23,02-23,February,23,Friday,352,Medium
+2024-02-24,02-24,February,24,Saturday,146,Very Low
+2024-02-25,02-25,February,25,Sunday,136,Very Low
+2024-02-26,02-26,February,26,Monday,376,High
+2024-02-27,02-27,February,27,Tuesday,419,High
+2024-02-28,02-28,February,28,Wednesday,393,High
+2024-02-29,02-29,February,29,Thursday,286,Low
+2024-03-01,03-01,March,1,Friday,288,Low
+2024-03-02,03-02,March,2,Saturday,158,Very Low
+2024-03-03,03-03,March,3,Sunday,153,Very Low
+2024-03-04,03-04,March,4,Monday,349,Medium
+2024-03-05,03-05,March,5,Tuesday,323,Medium
+2024-03-06,03-06,March,6,Wednesday,394,High
+2024-03-07,03-07,March,7,Thursday,336,Medium
+2024-03-08,03-08,March,8,Friday,288,Low
+2024-03-09,03-09,March,9,Saturday,207,Low
+2024-03-10,03-10,March,10,Sunday,180,Very Low
+2024-03-11,03-11,March,11,Monday,439,Very High
+2024-03-12,03-12,March,12,Tuesday,437,High
+2024-03-13,03-13,March,13,Wednesday,377,High
+2024-03-14,03-14,March,14,Thursday,329,Medium
+2024-03-15,03-15,March,15,Friday,235,Low
+2024-03-16,03-16,March,16,Saturday,76,Very Low
+2024-03-17,03-17,March,17,Sunday,100,Very Low
+2024-03-18,03-18,March,18,Monday,225,Low
+2024-03-19,03-19,March,19,Tuesday,764,Very High
+2024-03-20,03-20,March,20,Wednesday,340,Medium
+2024-03-21,03-21,March,21,Thursday,348,Medium
+2024-03-22,03-22,March,22,Friday,335,Medium
+2024-03-23,03-23,March,23,Saturday,220,Low
+2024-03-24,03-24,March,24,Sunday,159,Very Low
+2024-03-25,03-25,March,25,Monday,397,High
+2024-03-26,03-26,March,26,Tuesday,390,High
+2024-03-27,03-27,March,27,Wednesday,299,Low
+2024-03-28,03-28,March,28,Thursday,291,Low
+2024-03-29,03-29,March,29,Friday,238,Low
+2024-03-30,03-30,March,30,Saturday,154,Very Low
+2024-03-31,03-31,March,31,Sunday,146,Very Low
+2024-04-01,04-01,April,1,Monday,359,Medium
+2024-04-02,04-02,April,2,Tuesday,340,Medium
+2024-04-03,04-03,April,3,Wednesday,438,Very High
+2024-04-04,04-04,April,4,Thursday,365,Medium
+2024-04-05,04-05,April,5,Friday,287,Low
+2024-04-06,04-06,April,6,Saturday,163,Very Low
+2024-04-07,04-07,April,7,Sunday,166,Very Low
+2024-04-08,04-08,April,8,Monday,339,Medium
+2024-04-09,04-09,April,9,Tuesday,357,Medium
+2024-04-10,04-10,April,10,Wednesday,334,Medium
+2024-04-11,04-11,April,11,Thursday,0,Very Low
+2024-04-12,04-12,April,12,Friday,0,Very Low
+2024-04-13,04-13,April,13,Saturday,0,Very Low
+2024-04-14,04-14,April,14,Sunday,0,Very Low
+2024-04-15,04-15,April,15,Monday,1258,Very High
+2024-04-16,04-16,April,16,Tuesday,390,High
+2024-04-17,04-17,April,17,Wednesday,363,Medium
+2024-04-18,04-18,April,18,Thursday,354,Medium
+2024-04-19,04-19,April,19,Friday,322,Medium
+2024-04-20,04-20,April,20,Saturday,162,Very Low
+2024-04-21,04-21,April,21,Sunday,161,Very Low
+2024-04-22,04-22,April,22,Monday,360,Medium
+2024-04-23,04-23,April,23,Tuesday,313,Medium
+2024-04-24,04-24,April,24,Wednesday,353,Medium
+2024-04-25,04-25,April,25,Thursday,309,Low
+2024-04-26,04-26,April,26,Friday,334,Medium
+2024-04-27,04-27,April,27,Saturday,116,Very Low
+2024-04-28,04-28,April,28,Sunday,150,Very Low
+2024-04-29,04-29,April,29,Monday,346,Medium
+2024-04-30,04-30,April,30,Tuesday,372,High
+2024-05-01,05-01,May,1,Wednesday,354,Medium
+2024-05-02,05-02,May,2,Thursday,343,Medium
+2024-05-03,05-03,May,3,Friday,257,Low
+2024-05-04,05-04,May,4,Saturday,164,Very Low
+2024-05-05,05-05,May,5,Sunday,163,Very Low
+2024-05-06,05-06,May,6,Monday,375,High
+2024-05-07,05-07,May,7,Tuesday,372,High
+2024-05-08,05-08,May,8,Wednesday,349,Medium
+2024-05-09,05-09,May,9,Thursday,309,Low
+2024-05-10,05-10,May,10,Friday,307,Low
+2024-05-11,05-11,May,11,Saturday,165,Very Low
+2024-05-12,05-12,May,12,Sunday,127,Very Low
+2024-05-13,05-13,May,13,Monday,361,Medium
+2024-05-14,05-14,May,14,Tuesday,391,High
+2024-05-15,05-15,May,15,Wednesday,357,Medium
+2024-05-16,05-16,May,16,Thursday,379,High
+2024-05-17,05-17,May,17,Friday,329,Medium
+2024-05-18,05-18,May,18,Saturday,154,Very Low
+2024-05-19,05-19,May,19,Sunday,195,Very Low
+2024-05-20,05-20,May,20,Monday,429,High
+2024-05-21,05-21,May,21,Tuesday,348,Medium
+2024-05-22,05-22,May,22,Wednesday,371,High
+2024-05-23,05-23,May,23,Thursday,322,Medium
+2024-05-24,05-24,May,24,Friday,329,Medium
+2024-05-25,05-25,May,25,Saturday,180,Very Low
+2024-05-26,05-26,May,26,Sunday,202,Low
+2024-05-27,05-27,May,27,Monday,194,Very Low
+2024-05-28,05-28,May,28,Tuesday,492,Very High
+2024-05-29,05-29,May,29,Wednesday,439,Very High
+2024-05-30,05-30,May,30,Thursday,383,High
+2024-05-31,05-31,May,31,Friday,426,High
+2024-06-01,06-01,June,1,Saturday,197,Very Low
+2024-06-02,06-02,June,2,Sunday,209,Low
+2024-06-03,06-03,June,3,Monday,436,High
+2024-06-04,06-04,June,4,Tuesday,372,High
+2024-06-05,06-05,June,5,Wednesday,454,Very High
+2024-06-06,06-06,June,6,Thursday,410,High
+2024-06-07,06-07,June,7,Friday,377,High
+2024-06-08,06-08,June,8,Saturday,178,Very Low
+2024-06-09,06-09,June,9,Sunday,175,Very Low
+2024-06-10,06-10,June,10,Monday,450,Very High
+2024-06-11,06-11,June,11,Tuesday,454,Very High
+2024-06-12,06-12,June,12,Wednesday,394,High
+2024-06-13,06-13,June,13,Thursday,392,High
+2024-06-14,06-14,June,14,Friday,324,Medium
+2024-06-15,06-15,June,15,Saturday,172,Very Low
+2024-06-16,06-16,June,16,Sunday,187,Very Low
+2024-06-17,06-17,June,17,Monday,393,High
+2024-06-18,06-18,June,18,Tuesday,376,High
+2024-06-19,06-19,June,19,Wednesday,310,Low
+2024-06-20,06-20,June,20,Thursday,429,High
+2024-06-21,06-21,June,21,Friday,344,Medium
+2024-06-22,06-22,June,22,Saturday,254,Low
+2024-06-23,06-23,June,23,Sunday,249,Low
+2024-06-24,06-24,June,24,Monday,510,Very High
+2024-06-25,06-25,June,25,Tuesday,414,High
+2024-06-26,06-26,June,26,Wednesday,451,Very High
+2024-06-27,06-27,June,27,Thursday,430,High
+2024-06-28,06-28,June,28,Friday,342,Medium
+2024-06-29,06-29,June,29,Saturday,164,Very Low
+2024-06-30,06-30,June,30,Sunday,224,Low
+2024-07-01,07-01,July,1,Monday,467,Very High
+2024-07-02,07-02,July,2,Tuesday,404,High
+2024-07-03,07-03,July,3,Wednesday,355,Medium
+2024-07-04,07-04,July,4,Thursday,166,Very Low
+2024-07-05,07-05,July,5,Friday,324,Medium
+2024-07-06,07-06,July,6,Saturday,199,Very Low
+2024-07-07,07-07,July,7,Sunday,248,Low
+2024-07-08,07-08,July,8,Monday,511,Very High
+2024-07-09,07-09,July,9,Tuesday,496,Very High
+2024-07-10,07-10,July,10,Wednesday,488,Very High
+2024-07-11,07-11,July,11,Thursday,239,Low
+2024-07-12,07-12,July,12,Friday,206,Low
+2024-07-13,07-13,July,13,Saturday,0,Very Low
+2024-07-14,07-14,July,14,Sunday,833,Very High
+2024-07-15,07-15,July,15,Monday,472,Very High
+2024-07-16,07-16,July,16,Tuesday,506,Very High
+2024-07-17,07-17,July,17,Wednesday,438,Very High
+2024-07-18,07-18,July,18,Thursday,420,High
+2024-07-19,07-19,July,19,Friday,272,Low
+2024-07-20,07-20,July,20,Saturday,214,Low
+2024-07-21,07-21,July,21,Sunday,207,Low
+2024-07-22,07-22,July,22,Monday,486,Very High
+2024-07-23,07-23,July,23,Tuesday,433,High
+2024-07-24,07-24,July,24,Wednesday,466,Very High
+2024-07-25,07-25,July,25,Thursday,410,High
+2024-07-26,07-26,July,26,Friday,350,Medium
+2024-07-27,07-27,July,27,Saturday,196,Very Low
+2024-07-28,07-28,July,28,Sunday,194,Very Low
+2024-07-29,07-29,July,29,Monday,523,Very High
+2024-07-30,07-30,July,30,Tuesday,474,Very High
+2024-07-31,07-31,July,31,Wednesday,496,Very High
+2024-08-01,08-01,August,1,Thursday,413,High
+2024-08-02,08-02,August,2,Friday,406,High
+2024-08-03,08-03,August,3,Saturday,215,Low
+2024-08-04,08-04,August,4,Sunday,286,Low
+2024-08-05,08-05,August,5,Monday,547,Very High
+2024-08-06,08-06,August,6,Tuesday,509,Very High
+2024-08-07,08-07,August,7,Wednesday,514,Very High
+2024-08-08,08-08,August,8,Thursday,489,Very High
+2024-08-09,08-09,August,9,Friday,514,Very High
+2024-08-10,08-10,August,10,Saturday,234,Low
+2024-08-11,08-11,August,11,Sunday,254,Low
+2024-08-12,08-12,August,12,Monday,478,Very High
+2024-08-13,08-13,August,13,Tuesday,483,Very High
+2024-08-14,08-14,August,14,Wednesday,442,Very High
+2024-08-15,08-15,August,15,Thursday,414,High
+2024-08-16,08-16,August,16,Friday,397,High
+2024-08-17,08-17,August,17,Saturday,191,Very Low
+2024-08-18,08-18,August,18,Sunday,279,Low
+2024-08-19,08-19,August,19,Monday,579,Very High
+2024-08-20,08-20,August,20,Tuesday,533,Very High
+2024-08-21,08-21,August,21,Wednesday,445,Very High
+2024-08-22,08-22,August,22,Thursday,446,Very High
+2024-08-23,08-23,August,23,Friday,360,Medium
+2024-08-24,08-24,August,24,Saturday,189,Very Low
+2024-08-25,08-25,August,25,Sunday,189,Very Low
+2024-08-26,08-26,August,26,Monday,486,Very High
+2024-08-27,08-27,August,27,Tuesday,500,Very High
+2024-08-28,08-28,August,28,Wednesday,516,Very High
+2024-08-29,08-29,August,29,Thursday,484,Very High
+2024-08-30,08-30,August,30,Friday,379,High
+2024-08-31,08-31,August,31,Saturday,221,Low
+2024-09-01,09-01,September,1,Sunday,217,Low
+2024-09-02,09-02,September,2,Monday,236,Low
+2024-09-03,09-03,September,3,Tuesday,563,Very High
+2024-09-04,09-04,September,4,Wednesday,456,Very High
+2024-09-05,09-05,September,5,Thursday,481,Very High
+2024-09-06,09-06,September,6,Friday,435,High
+2024-09-07,09-07,September,7,Saturday,219,Low
+2024-09-08,09-08,September,8,Sunday,225,Low
+2024-09-09,09-09,September,9,Monday,480,Very High
+2024-09-10,09-10,September,10,Tuesday,492,Very High
+2024-09-11,09-11,September,11,Wednesday,422,High
+2024-09-12,09-12,September,12,Thursday,472,Very High
+2024-09-13,09-13,September,13,Friday,448,Very High
+2024-09-14,09-14,September,14,Saturday,244,Low
+2024-09-15,09-15,September,15,Sunday,222,Low
+2024-09-16,09-16,September,16,Monday,496,Very High
+2024-09-17,09-17,September,17,Tuesday,464,Very High
+2024-09-18,09-18,September,18,Wednesday,369,Medium
+2024-09-19,09-19,September,19,Thursday,418,High
+2024-09-20,09-20,September,20,Friday,382,High
+2024-09-21,09-21,September,21,Saturday,176,Very Low
+2024-09-22,09-22,September,22,Sunday,243,Low
+2024-09-23,09-23,September,23,Monday,518,Very High
+2024-09-24,09-24,September,24,Tuesday,471,Very High
+2024-09-25,09-25,September,25,Wednesday,440,Very High
+2024-09-26,09-26,September,26,Thursday,357,Medium
+2024-09-27,09-27,September,27,Friday,407,High
+2024-09-28,09-28,September,28,Saturday,203,Low
+2024-09-29,09-29,September,29,Sunday,213,Low
+2024-09-30,09-30,September,30,Monday,457,Very High
+2024-10-01,10-01,October,1,Tuesday,440,Very High
+2024-10-02,10-02,October,2,Wednesday,400,High
+2024-10-03,10-03,October,3,Thursday,336,Medium
+2024-10-04,10-04,October,4,Friday,369,Medium
+2024-10-05,10-05,October,5,Saturday,173,Very Low
+2024-10-06,10-06,October,6,Sunday,244,Low
+2024-10-07,10-07,October,7,Monday,515,Very High
+2024-10-08,10-08,October,8,Tuesday,379,High
+2024-10-09,10-09,October,9,Wednesday,349,Medium
+2024-10-10,10-10,October,10,Thursday,350,Medium
+2024-10-11,10-11,October,11,Friday,346,Medium
+2024-10-12,10-12,October,12,Saturday,178,Very Low
+2024-10-13,10-13,October,13,Sunday,164,Very Low
+2024-10-14,10-14,October,14,Monday,290,Low
+2024-10-15,10-15,October,15,Tuesday,519,Very High
+2024-10-16,10-16,October,16,Wednesday,445,Very High
+2024-10-17,10-17,October,17,Thursday,453,Very High
+2024-10-18,10-18,October,18,Friday,347,Medium
+2024-10-19,10-19,October,19,Saturday,156,Very Low
+2024-10-20,10-20,October,20,Sunday,160,Very Low
+2024-10-21,10-21,October,21,Monday,427,High
+2024-10-22,10-22,October,22,Tuesday,446,Very High
+2024-10-23,10-23,October,23,Wednesday,409,High
+2024-10-24,10-24,October,24,Thursday,396,High
+2024-10-25,10-25,October,25,Friday,350,Medium
+2024-10-26,10-26,October,26,Saturday,178,Very Low
+2024-10-27,10-27,October,27,Sunday,222,Low
+2024-10-28,10-28,October,28,Monday,465,Very High
+2024-10-29,10-29,October,29,Tuesday,418,High
+2024-10-30,10-30,October,30,Wednesday,366,Medium
+2024-10-31,10-31,October,31,Thursday,310,Low
+2024-11-01,11-01,November,1,Friday,306,Low
+2024-11-02,11-02,November,2,Saturday,156,Very Low
+2024-11-03,11-03,November,3,Sunday,199,Very Low
+2024-11-04,11-04,November,4,Monday,453,Very High
+2024-11-05,11-05,November,5,Tuesday,271,Low
+2024-11-06,11-06,November,6,Wednesday,341,Medium
+2024-11-07,11-07,November,7,Thursday,349,Medium
+2024-11-08,11-08,November,8,Friday,370,High
+2024-11-09,11-09,November,9,Saturday,231,Low
+2024-11-10,11-10,November,10,Sunday,213,Low
+2024-11-11,11-11,November,11,Monday,289,Low
+2024-11-12,11-12,November,12,Tuesday,428,High
+2024-11-13,11-13,November,13,Wednesday,498,Very High
+2024-11-14,11-14,November,14,Thursday,408,High
+2024-11-15,11-15,November,15,Friday,308,Low
+2024-11-16,11-16,November,16,Saturday,205,Low
+2024-11-17,11-17,November,17,Sunday,200,Very Low
+2024-11-18,11-18,November,18,Monday,452,Very High
+2024-11-19,11-19,November,19,Tuesday,416,High
+2024-11-20,11-20,November,20,Wednesday,373,High
+2024-11-21,11-21,November,21,Thursday,409,High
+2024-11-22,11-22,November,22,Friday,427,High
+2024-11-23,11-23,November,23,Saturday,179,Very Low
+2024-11-24,11-24,November,24,Sunday,196,Very Low
+2024-11-25,11-25,November,25,Monday,373,High
+2024-11-26,11-26,November,26,Tuesday,342,Medium
+2024-11-27,11-27,November,27,Wednesday,270,Low
+2024-11-28,11-28,November,28,Thursday,120,Very Low
+2024-11-29,11-29,November,29,Friday,226,Low
+2024-11-30,11-30,November,30,Saturday,186,Very Low
+2024-12-01,12-01,December,1,Sunday,264,Low
+2024-12-02,12-02,December,2,Monday,493,Very High
+2024-12-03,12-03,December,3,Tuesday,453,Very High
+2024-12-04,12-04,December,4,Wednesday,398,High
+2024-12-05,12-05,December,5,Thursday,392,High
+2024-12-06,12-06,December,6,Friday,355,Medium
+2024-12-07,12-07,December,7,Saturday,161,Very Low
+2024-12-08,12-08,December,8,Sunday,189,Very Low
+2024-12-09,12-09,December,9,Monday,372,High
+2024-12-10,12-10,December,10,Tuesday,365,Medium
+2024-12-11,12-11,December,11,Wednesday,336,Medium
+2024-12-12,12-12,December,12,Thursday,345,Medium
+2024-12-13,12-13,December,13,Friday,357,Medium
+2024-12-14,12-14,December,14,Saturday,180,Very Low
+2024-12-15,12-15,December,15,Sunday,202,Low
+2024-12-16,12-16,December,16,Monday,439,Very High
+2024-12-17,12-17,December,17,Tuesday,328,Medium
+2024-12-18,12-18,December,18,Wednesday,302,Low
+2024-12-19,12-19,December,19,Thursday,282,Low
+2024-12-20,12-20,December,20,Friday,283,Low
+2024-12-21,12-21,December,21,Saturday,204,Low
+2024-12-22,12-22,December,22,Sunday,267,Low
+2024-12-23,12-23,December,23,Monday,410,High
+2024-12-24,12-24,December,24,Tuesday,271,Low
+2024-12-25,12-25,December,25,Wednesday,100,Very Low
+2024-12-26,12-26,December,26,Thursday,310,Low
+2024-12-27,12-27,December,27,Friday,313,Medium
+2024-12-28,12-28,December,28,Saturday,179,Very Low
+2024-12-29,12-29,December,29,Sunday,196,Very Low
+2024-12-30,12-30,December,30,Monday,348,Medium
+2024-12-31,12-31,December,31,Tuesday,0,Very Low
