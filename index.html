@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NYC Oracle</title>
+  <title>Oracle of Gotham</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap');
 
@@ -181,7 +181,7 @@
   let prophecies = null;
 
   async function loadData() {
-    const res = await fetch('prophecies_2026-03-20.csv');
+    const res = await fetch('prophecies_all.csv');
     const text = await res.text();
     prophecies = parseCSV(text);
   }
