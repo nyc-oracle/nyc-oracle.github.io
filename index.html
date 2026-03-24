@@ -4,157 +4,200 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oracle of Gotham</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap');
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --ink: #1a1209;
-      --paper: #f5ede0;
-      --paper-dark: #e8d9c4;
-      --rule: #b8996a;
-      --muted: #7a6040;
+      --dark: #0a0e27;
+      --darker: #050810;
+      --accent-cyan: #00ffff;
+      --accent-magenta: #ff00ff;
+      --accent-lime: #00ff00;
+      --text-primary: #00ffff;
+      --text-muted: #888888;
+      --border: #444444;
     }
 
     body {
-      background: var(--paper);
-      color: var(--ink);
-      font-family: 'IM Fell English', Georgia, serif;
+      background: var(--dark);
+      color: var(--text-primary);
+      font-family: 'Press Start 2P', monospace;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 3rem 1.5rem;
+      padding: 2rem 1rem;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
     }
 
     header {
       text-align: center;
-      margin-bottom: 3rem;
-      border-bottom: 1px solid var(--rule);
-      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+      border-bottom: 3px solid var(--accent-cyan);
+      padding-bottom: 1.5rem;
       width: 100%;
-      max-width: 540px;
+      max-width: 600px;
+    }
+
+    header img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1rem;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      filter: drop-shadow(0 0 8px var(--accent-cyan));
     }
 
     header h1 {
-      font-family: 'IM Fell English SC', serif;
-      font-size: 2rem;
-      letter-spacing: 0.08em;
-      margin-bottom: 0.4rem;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 1.5rem;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+      color: var(--accent-magenta);
+      text-shadow: 0 0 10px var(--accent-magenta);
     }
 
     header p {
-      font-style: italic;
-      color: var(--muted);
-      font-size: 0.95rem;
+      font-size: 0.7rem;
+      color: var(--accent-lime);
+      text-shadow: 0 0 5px var(--accent-lime);
     }
 
     .lookup {
       width: 100%;
-      max-width: 540px;
+      max-width: 600px;
       display: flex;
-      gap: 0.75rem;
-      margin-bottom: 2.5rem;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .lookup input {
       flex: 1;
-      background: var(--paper-dark);
-      border: 1px solid var(--rule);
-      color: var(--ink);
-      font-family: 'IM Fell English', Georgia, serif;
-      font-size: 1.1rem;
-      padding: 0.65rem 1rem;
+      min-width: 200px;
+      background: var(--darker);
+      border: 3px solid var(--accent-cyan);
+      color: var(--accent-cyan);
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.7rem;
+      padding: 0.8rem;
       outline: none;
       text-align: center;
       letter-spacing: 0.05em;
+      box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.2);
     }
 
     .lookup input::placeholder {
-      color: var(--muted);
-      font-style: italic;
+      color: var(--text-muted);
     }
 
     .lookup input:focus {
-      border-color: var(--ink);
+      border-color: var(--accent-lime);
+      box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.3), 0 0 15px rgba(0, 255, 0, 0.5);
     }
 
     .lookup button {
-      background: var(--ink);
-      color: var(--paper);
-      border: none;
-      font-family: 'IM Fell English SC', serif;
-      font-size: 0.95rem;
+      background: var(--accent-magenta);
+      color: var(--dark);
+      border: 3px solid var(--accent-magenta);
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.7rem;
       letter-spacing: 0.08em;
-      padding: 0.65rem 1.4rem;
+      padding: 0.8rem 1.2rem;
       cursor: pointer;
+      box-shadow: 0 4px 0 #a800a8;
+      transition: all 0.05s;
     }
 
     .lookup button:hover {
-      background: #3a2810;
+      background: var(--accent-lime);
+      border-color: var(--accent-lime);
+      box-shadow: 0 4px 0 #00cc00, 0 0 10px var(--accent-lime);
+    }
+
+    .lookup button:active {
+      box-shadow: 0 0 0 #a800a8;
+      transform: translateY(4px);
     }
 
     #result {
       width: 100%;
-      max-width: 540px;
+      max-width: 600px;
     }
 
     .card {
-      background: var(--paper-dark);
-      border: 1px solid var(--rule);
-      padding: 2rem 2rem 1.75rem;
+      background: var(--darker);
+      border: 3px solid var(--accent-cyan);
+      padding: 1.5rem;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
     }
 
     .card-label {
-      font-family: 'IM Fell English SC', serif;
-      font-size: 0.75rem;
-      letter-spacing: 0.12em;
-      color: var(--muted);
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--accent-lime);
       margin-bottom: 1rem;
+      text-shadow: 0 0 5px var(--accent-lime);
     }
 
     .card-prophecy {
-      font-size: 1.2rem;
-      line-height: 1.65;
-      margin-bottom: 1.75rem;
+      font-size: 0.8rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      color: var(--text-primary);
     }
 
     .card-divider {
       border: none;
-      border-top: 1px solid var(--rule);
-      margin-bottom: 1.5rem;
+      border-top: 2px dashed var(--accent-magenta);
+      margin-bottom: 1.2rem;
     }
 
     .card-notes-label {
-      font-family: 'IM Fell English SC', serif;
-      font-size: 0.7rem;
-      letter-spacing: 0.12em;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--accent-magenta);
+      margin-bottom: 0.5rem;
+      text-shadow: 0 0 5px var(--accent-magenta);
     }
 
     .card-notes {
-      font-style: italic;
-      font-size: 0.88rem;
-      color: var(--muted);
-      line-height: 1.7;
-      white-space: pre-line;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      white-space: normal;
+    }
+
+    .card-notes ul {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .card-notes li {
+      margin-bottom: 0.5rem;
     }
 
     .error {
-      font-style: italic;
-      color: var(--muted);
+      font-size: 0.7rem;
+      color: var(--accent-lime);
       text-align: center;
       padding: 1.5rem 0;
+      text-shadow: 0 0 5px var(--accent-lime);
     }
 
     footer {
       margin-top: auto;
-      padding-top: 3rem;
-      font-style: italic;
-      font-size: 0.8rem;
-      color: var(--muted);
+      padding-top: 2rem;
+      font-size: 0.6rem;
+      color: var(--text-muted);
       text-align: center;
     }
   </style>
@@ -162,19 +205,20 @@
 <body>
 
   <header>
-    <h1>NYC Oracle</h1>
+    <img src="images/8bitball_v2.png" alt="Oracle Crystal Ball">
+    <h1>NYC ORACLE</h1>
     <p>Enter your prophecy number</p>
   </header>
 
   <div class="lookup">
-    <input type="text" id="indexInput" placeholder="prophecy number" autocomplete="off" />
-    <button onclick="lookup()">Consult</button>
+    <input type="text" id="indexInput" placeholder="prophecy #" autocomplete="off" />
+    <button onclick="lookup()">CONSULT</button>
   </div>
 
   <div id="result"></div>
 
   <footer>
-    Derived from NYC Open Data &mdash; seasonal patterns as portents
+    DERIVED FROM NYC OPEN DATA — SEASONAL PATTERNS AS PORTENTS
   </footer>
 
 <script>
@@ -197,7 +241,6 @@
     });
   }
 
-  // RFC 4180-compliant CSV line parser
   function parseCSVLine(line) {
     const result = [];
     let cur = '';
@@ -225,9 +268,9 @@
     if (!val) { resultEl.innerHTML = ''; return; }
 
     if (!prophecies) {
-      resultEl.innerHTML = '<p class="error">Loading&hellip;</p>';
+      resultEl.innerHTML = '<p class="error">LOADING...</p>';
       try { await loadData(); } catch (e) {
-        resultEl.innerHTML = '<p class="error">Could not load prophecy data.</p>';
+        resultEl.innerHTML = '<p class="error">PROPHECY DATA NOT FOUND</p>';
         return;
       }
     }
@@ -235,17 +278,22 @@
     const match = prophecies.find(r => String(r.prophecy_index).trim() === val);
 
     if (!match) {
-      resultEl.innerHTML = '<p class="error">No prophecy found for that number.</p>';
+      resultEl.innerHTML = '<p class="error">NO PROPHECY FOR THAT NUMBER</p>';
       return;
     }
 
+    const notes = match.data_notes.split('|').map(n => n.trim()).filter(n => n);
+    const notesList = notes.length > 1 
+      ? '<ul>' + notes.map(n => `<li>${escHtml(n)}</li>`).join('') + '</ul>'
+      : `<div class="card-notes">${escHtml(match.data_notes)}</div>`;
+
     resultEl.innerHTML = `
       <div class="card">
-        <div class="card-label">Prophecy ${escHtml(val)}</div>
+        <div class="card-label">PROPHECY ${escHtml(val)}</div>
         <div class="card-prophecy">${escHtml(match.prophecy)}</div>
         <hr class="card-divider">
-        <div class="card-notes-label">Signs consulted</div>
-        <div class="card-notes">${escHtml(match.data_notes)}</div>
+        <div class="card-notes-label">SIGNS CONSULTED</div>
+        <div class="card-notes">${notesList}</div>
       </div>
     `;
   }
@@ -258,7 +306,6 @@
     if (e.key === 'Enter') lookup();
   });
 
-  // Pre-load data in background
   loadData().catch(() => {});
 </script>
 </body>
